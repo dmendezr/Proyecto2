@@ -1,0 +1,17 @@
+**********************TOOLS*********************
+
+https://developer.mozilla.org/es/docs/Web/CSS/CSS_Colors/Color_picker_tool
+http://www.mejoresplantillasgratis.es/free-templates/page8.html?tpp=6
+
+************************************************
+
+http://www.anerbarrena.com/programacion/jquery/page/4/
+http://tympanus.net/Development/ParallaxContentSlider/
+http://tympanus.net/codrops/2012/03/15/parallax-content-slider-with-css3-and-jquery/
+http://www.forosdelweb.com/f179/duda-sobre-mostrar-ocultar-elementos-pasar-mouse-por-encima-1113284/
+
+***********************css LAB*******************
+http://www.csslab.cl/2011/01/31/animaciones-y-transformaciones-con-css3/
+http://www.csslab.cl/2012/10/08/fadeinout-en-menu-con-css/
+http://www.csslab.cl/2007/11/16/volando-con-moo/
+http://www.csslab.cl/ejemplos/volando/index.html

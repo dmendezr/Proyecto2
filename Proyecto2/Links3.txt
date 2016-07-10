@@ -1,0 +1,11 @@
+http://www.csslab.cl/2014/03/26/animaciones-css3-al-fin-del-ciclo/
+http://www.csslab.cl/ejemplos/modal/modal.html
+http://www.jose-aguilar.com/blog/position-fixed/
+http://www.w3schools.com/jsref/jsref_concat_string.asp
+http://librosweb.es/foro/pregunta/472/como-redondear-con-css-imagenes-cuadradas-y-rectangulares/
+http://librosweb.es/libro/fundamentos_jquery/capitulo_2/bucles.html
+http://www.w3schools.com/jquery/event_hover.asp
+http://www.w3schools.com/jquery/jquery_syntax.asp
+http://www.w3schools.com/jquery/jquery_selectors.asp
+http://www.jose-aguilar.com/blog/ejecutar-una-funcion-cada-x-segundos-con-jquery/
+http://www.csslab.cl/2014/03/26/animaciones-css3-al-fin-del-ciclo/
