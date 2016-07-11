@@ -9,3 +9,12 @@ http://www.w3schools.com/jquery/jquery_syntax.asp
 http://www.w3schools.com/jquery/jquery_selectors.asp
 http://www.jose-aguilar.com/blog/ejecutar-una-funcion-cada-x-segundos-con-jquery/
 http://www.csslab.cl/2014/03/26/animaciones-css3-al-fin-del-ciclo/
+
+*************************EFECTOS CSS***************************************************
+http://www.psdahtmlpasoapaso.com/blog/7-increibles-efectos-de-transicion-con-css3
+
+********************************HOVER JQUERY********************************************
+http://www.lawebdelprogramador.com/foros/HTML/1464136-Hacer-hover-en-una-imagen-y-que-afecte-un-div-para-que-cambie-de-color.html
+
+*******************************IMAGENES ************************************************
+http://es.freeimages.com/photo/b-w-books-1625083
