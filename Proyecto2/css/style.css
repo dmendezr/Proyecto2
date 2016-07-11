@@ -225,35 +225,55 @@ footer{
 .seccion {
 	padding-top: 30px;
 	margin-left: 200px;
-
 }
 
-.seccion img {
+.seccion h2{
 	float: left;
-	margin: 0 10px 10px 0;
+}
 
+.seccion p{
+	/*background-color: rgba(102, 153, 153, 0.30);*/
+	background-image: -webkit-gradient(linear, 0 top, 0 bottom, from(rgba(33, 158, 226, 0.97)), to(rgba(33, 158, 226, 0.03)));
+	/*background-color: rgba(102, 153, 153, 0.44);*/			
+	text-align: justify;
+	margin-left: 10px;
+	width: 300px;	
+	color: rgba(19, 120, 174, 0.88);
+	padding: 20px;
+	transition: all 1s ease;
+	float: left;
+}
+
+.seccion p:hover{
+	width: 400px;
+	transition: all 2s ease;
+}
+
+.seccion p:hover h2{
+	background-color: #8904B1;
+}
+
+.header-seccion{
+	padding-top: 30px;
+}
+
+.header-seccion img {
+	/*float: left;*/
+	/*margin: 0 10px 10px 0;*/
+	width: 90px;
+	height: 90px;
+	margin-left: 15px;
+	float: left;
+}
+
+.header-seccion h2{
+	float: left;
 }
 
 .seccion-contenido{
 	
 }
 
-.seccion-contenido p{
-	/*background-color: rgba(102, 153, 153, 0.30);*/
-	background-image: -webkit-gradient(linear, 0 top, 0 bottom, from(rgba(33, 158, 226, 0.97)), to(rgba(33, 158, 226, 0.03)));
-	/*background-color: rgba(102, 153, 153, 0.44);*/			
-	text-align: justify;
-	margin-left: 100px;
-	width: 300px;	
-	color: rgba(19, 120, 174, 0.88);
-	padding: 20px;
-	transition: all 1s ease;
-}
-
-  .seccion-contenido p:hover{
-      width: 400px;
-      transition: all 2s ease;
-    }
 
 /*
 
