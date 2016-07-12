@@ -5,7 +5,7 @@ Class Db{
 
    private $servidor='localhost';
    private $usuario='root';
-   private $password='test';
+   private $password='Proyecto1234';
    private $base_datos='proyectopr3';
    private $link; 
    private $stmt;

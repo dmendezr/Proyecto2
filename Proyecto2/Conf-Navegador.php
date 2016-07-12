@@ -51,6 +51,25 @@
 			<div class="boton">
 				<button>Guardar</button>
 			</div>
+			<?php
+
+	/*Incluimos el fichero de la clase*/
+	require 'php/conexico.php';
+
+		$bd=Db::getInstance();
+
+		/*Creamos una query sencilla*/
+		$sql='SELECT Nombre FROM proyectopr3.persona';
+
+		/*Ejecutamos la query*/
+		$stmt=$bd->ejecutar($sql);
+
+	/*Realizamos un bucle para ir obteniendo los resultados*/
+	while ($x=$bd->obtener_fila($stmt,0)){
+   echo $x['Nombre'].'<br />';
+}
+
+?>
 		</div>	
 	</div>
 	<footer>
