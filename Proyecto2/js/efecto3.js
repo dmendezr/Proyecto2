@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {    
-    $("#pasatiempo1").click(function(){
+    $(".rotate3D").click(function(){
         $("#light").css({"display": "block"});
         $("#fade").css({"display": "block"});
     })  
