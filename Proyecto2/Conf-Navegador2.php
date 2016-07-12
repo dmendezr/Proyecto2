@@ -2,54 +2,55 @@
 <html>
 <head>
 	<title>Configuracion 2</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+
 </head>
 <body>
-	<div class="wrapper">
+	<div id="wrapper">
 
 		<div id="header">
 			<div id="logo">
 				<img src="images/logo.png">
 			</div>
-			<nav>
-        	<ul id="menu">
-          			<li><a href="#">Inicio</a></li>
-          			<li><a href="Conf-Navegador3.html">Informacion Basica</a>
-            			<ul>
-              				<li><a href="Conf-Navegador.html">Direccion</a></li>
-              				<li><a href="Conf-Navegador2.html">Escolaridad</a></li>
-              				<li><a href="#">Logros</a></li>
-            			</ul>  
-          			</li>
-          		<li><a href="#">Galeria</a></li>
-          		<li><a href="#">Sobre Nosotros</a></li>
-        	</ul>
-      		</nav>
+			<h1>Navegador</h1>
 		</div>
-		<div class="content-configuracion">
+
+		<div id="body">
+			<div id="body-info">
+				<h3>Informacion Personal</h3>
+				<select>
+					<option>Informacion Basica</option>
+					<option>Escolaridad</option>
+					<option>Domicilio</option>
+					<option>Parentesco</option>
+					<option>Contactos</option>
+				</select>
+			</div>
 			
-			<div class="body-text">
+			<div id="body-text">
 				<textarea>Escriba Aqui</textarea>
 				
 			</div>
-			<div class="body-text">
+			<div id="body-text">
 				<textarea>Escriba Aqui</textarea>
 				
 			</div>
-			<div class="body-text">
+			<div id="body-text">
 				<textarea>Escriba Aqui</textarea>
 				
 			</div>
-			<div class="body-text">
+			<div id="body-text">
 				<textarea>Escriba Aqui</textarea>
 				
 			</div>
-			<div class ="body-text">
+			<div id="body-text">
 				<textarea>Escriba Aqui</textarea>
 			</div>
-			<div class="boton">
+			<div id="boton">
 				<button>Guardar</button>
 			</div>
+
+
 			<div id="tables">
 				<table border="1">
 					<tr>
@@ -76,8 +77,6 @@
 				</table>
 
 			</div>
-		</div>	
-
 
 		</div>
 
