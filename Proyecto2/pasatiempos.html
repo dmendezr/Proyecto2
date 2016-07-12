@@ -7,6 +7,7 @@
 	<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
 	<script type="text/javascript" src="js/efecto2.js"></script>
 	<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+	<script type="text/javascript" src="js/efecto3.js"></script>
 	<noscript>
 			<link rel="stylesheet" type="text/css" href="css/nojs.css" />
 	</noscript>
@@ -44,7 +45,7 @@
 			</div>		
 		</div>
 		<div class="pasatiempos-contenido">
-			<img src="images/pasatiempo1.jpg" class="rotate3D">
+			<img src="images/pasatiempo1.jpg" class="rotate3D" id="pasatiempo1">
 			<img src="images/pasatiempo3.jpg" class="rotate3D">
 			<img src="images/pasatiempo4.jpg" class="rotate3D">
 			<img src="images/pasatiempo1.jpg" class="rotate3D">
@@ -52,19 +53,11 @@
 			<img src="images/pasatiempo4.jpg" class="rotate3D">
 		</div>
 		</div>
-		<!-- base semi-transparente -->
-    	<div id="fade" class="overlay" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"></div>
-		<!-- fin base semi-transparente -->
- 
-		<!-- ventana modal -->  
-		<div id="light" class="modal">
-    		<p>Aqu&iacute; est&aacute; el contenido que quieras mostrar. Para <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">cerrar</a> basta un simple JS. El estilo lo puede definir dentro de <strong>.contenido</strong></p>
-    	</div>
-		<!-- fin ventana modal -->
-
-		<!-- contenido página -->
-    	<p>Con un <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">simple click</a> podr&aacute;s desplegar la ventana modal.</p>
-		<!-- fin contenido página -->	
+		<div id="fade" class="overlay"></div>
+ 		<div id="light" class="modal">
+    		 <p>Lorem ipsum dolor sit.....</p>
+  		</div>
+		<p>Texto del sitio web. Con un <a href="">link</a> abriremos la ventana.</p>
 <footer>
 	Universidad Internacional de las Americas
 </footer>

@@ -1,24 +1,17 @@
 
-/*
 $(document).ready(function() {    
-    $(".rotate3D").hover(function(){
-	for (var i = 0, limit = 100; i < limit; i++) {
-    	$(this).css("transform", "rotateZ(90 deg)");
-    	}}, function(){   
-	});
-    setInterval(changeColor, 3000);
+    $("#fade").click(function(){
+        $("#light").css({"display": "none"});
+        $("#fade").css({"display": "none"});
+    })  
 });
-*/
+
 
 $(document).ready(function() {    
-    $(".rotate3D").hover(function(){
-		function rotate (){
-    	for (var i = 0, limit = 100; i < limit; i++) {
-    	$(this).css("transform", "rotateX(300deg)");
-    	}
-    	setInterval(rotate, 1000);
-    }
-    }, function(){   
-	});
+    $("#pasatiempo1").click(function(){
+        $("#light").css({"display": "block"});
+        $("#fade").css({"display": "block"});
+    })  
 });
+
 
