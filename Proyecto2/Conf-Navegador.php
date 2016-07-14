@@ -9,8 +9,8 @@
 	<?php 
 		include 'php/conectar.php';
 		include 'php/obtener.php';
-		$Cliente = new Cliente();
-		$resultado = $Cliente->getCliente();
+		$Persona = new Persona();
+		$resultado = $Persona->getPersona();
 	?>
 	<div class="wrapper">
 		<div id="header">

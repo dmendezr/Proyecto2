@@ -2,7 +2,7 @@
 /**
 * 
 */
-class Cliente extends Conectar
+class Persona extends Conectar
 {
 	
 	function __construct()
@@ -12,7 +12,7 @@ class Cliente extends Conectar
 
 	public $resultado = array();
 
-    public function getCliente() {
+    public function getPersona() {
         try {
             $sql = "SELECT * FROM persona";
             $query = mysqli_query(self::conectar(), $sql);
