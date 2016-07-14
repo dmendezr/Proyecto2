@@ -52,9 +52,7 @@
 				<button>Guardar</button>
 			</div>
 			<?php
-
 	/*Incluimos el fichero de la clase*/
-	<?php
 	include 'php/conectar.php';
 	include 'php/obtener.php';
 	$Cliente = new Cliente();
