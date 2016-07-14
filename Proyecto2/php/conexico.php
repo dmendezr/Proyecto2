@@ -3,7 +3,7 @@
 /* Clase encargada de gestionar las conexiones a la base de datos */
 Class Db{
 
-   private $servidor='localhost';
+   private $servidor='mysql.hostinger.es';
    private $usuario='u384523145_root';
    private $password='Proyecto1234';
    private $base_datos='u384523145_prpii';
