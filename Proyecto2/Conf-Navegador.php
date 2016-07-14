@@ -54,22 +54,14 @@
 			<?php
 
 	/*Incluimos el fichero de la clase*/
-	require 'php/conexico.php';
+	<?php
+	include 'php/conectar.php';
+	include 'php/obtener.php';
+	$Cliente = new Cliente();
+	echo this->$Cliente.getCliente();
+	
 
-		$bd=Db::getInstance();
-
-		/*Creamos una query sencilla*/
-		$sql='SELECT Nombre FROM proyectopr3.persona';
-
-		/*Ejecutamos la query*/
-		$stmt=$bd->ejecutar($sql);
-
-	/*Realizamos un bucle para ir obteniendo los resultados*/
-	while ($x=$bd->obtener_fila($stmt,0)){
-   echo $x['Nombre'].'<br />';
-}
-
-?>
+	?>
 		</div>	
 	</div>
 	<footer>
