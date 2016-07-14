@@ -58,14 +58,14 @@
 				<button>Guardar</button>
 			</div>
 	/*Incluimos el fichero de la clase*/
-	
+
 	<?php foreach($resultado as $linea) { ?>
                 <div class="producto">
                     <h3>Nombre:</h3>
-                    <p><?php echo $linea['nombre'] ?></p>
+                    <p><?php echo $linea['Nombre'] ?></p>
 
-                    <h3>Descipción:</h3>
-                    <p><?php echo $linea['descripcion'] ?></p>
+                    <h3>Descipcion:</h3>
+                    <p><?php echo $linea['Apellido1'] ?></p>
                 </div>
 	 <?php } ?>
 		</div>	
