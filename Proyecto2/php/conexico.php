@@ -3,10 +3,6 @@
 /* Clase encargada de gestionar las conexiones a la base de datos */
 Class Db{
 
-   private $servidor='mysql.hostinger.es';
-   private $usuario='u384523145_root';
-   private $password='Proyecto1234';
-   private $base_datos='u384523145_prpii';
    private $link; 
    private $stmt;
    private $array;
@@ -30,11 +26,52 @@ Class Db{
    }
 
    /*Realiza la conexión a la base de datos.*/
-   private function conectar(){
-      $this->link=mysql_connect($this->servidor, $this->usuario, $this->password);
-      mysql_select_db($this->base_datos,$this->link);
-      @mysql_query("SET NAMES 'utf8'");
-   }
+      public $username = 'u384523145_root';
+      public $password = 'Proyecto1234';
+      public $hostname = 'mysql.hostinger.es';
+      public $database = 'u384523145_prpii';
+      
+      function __construct(argument)
+      {
+
+      }
+
+      public function getUsername() {
+         return $this->username;
+      }
+
+      public function getPassword() {
+         return $this->password;
+      }
+
+      public function getHostname() {
+         return $this->hostname;
+      }
+
+      public function getDatabase() {
+         return $this->database;
+      }
+
+      public function conectar() {
+         try{
+            $conexion = mysqli_connect(
+               $this->getHostname(),
+               $this->getUsername(),
+               $this->getPassword(),
+               $this->getDatabase()
+            );
+
+            if (mysqli_connect_errno()) { 
+               throw new Exception("Falló la conexión: %s\n", mysqli_connect_error());
+            }
+
+            return $conexion;
+         } catch(Exception $e) {
+            echo $e->getMessage();
+            exit;
+         }
+      }
+
 
    /*Método para ejecutar una sentencia sql*/
    public function ejecutar($sql){
