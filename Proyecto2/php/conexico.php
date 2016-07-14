@@ -4,9 +4,9 @@
 Class Db{
 
    private $servidor='localhost';
-   private $usuario='root';
-   private $password='test';
-   private $base_datos='proyectopr3';
+   private $usuario='u384523145_root';
+   private $password='Proyecto1234';
+   private $base_datos='u384523145_prpii';
    private $link; 
    private $stmt;
    private $array;
