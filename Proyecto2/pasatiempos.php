@@ -44,5 +44,4 @@
  		<div id="light" class="modal">
     		 <p>Lorem ipsum dolor sit.....</p>
   		</div>
-		<p>Texto del sitio web. Con un <a href="">link</a> abriremos la ventana.</p>
 		<?php include 'footer.php'; ?>
