@@ -57,7 +57,7 @@
 	include 'php/obtener.php';
 	$Cliente = new Cliente();
 	$resultaado = $Cliente->getCliente();
-	echo $resultado;
+	echo $resultado(nombre);
 	?>
 		</div>	
 	</div>
