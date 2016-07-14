@@ -8,6 +8,7 @@
 	<script type="text/javascript" src="js/efecto2.js"></script>
 	<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
 	<script type="text/javascript" src="js/tituloInformacion.js"></script>
+	<script type="text/javascript" src="js/efecto3.js"></script>
 	<noscript>
 			<link rel="stylesheet" type="text/css" href="css/nojs.css" />
 	</noscript>
