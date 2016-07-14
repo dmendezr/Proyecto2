@@ -10,7 +10,7 @@
 		public $database = 'u384523145_prpii';
 		
 		
-		function __construct(argument)
+		function __construct()
 		{
 
 		}
