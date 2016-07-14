@@ -1,25 +1,4 @@
-<?php include 'header.php'; ?>
-<body>
-
-	<div class="wrapper">
-		<header>
-			<div class="logo">
-				<a href="#"><img src="images/logo.png"></a>
-		<nav>
-        	<ul id="menu">
-          		<li><a href="index.php">Inicio</a></li>
-          		<li><a href="information.php">Informacion</a>
-            		<ul>
-              			<li><a href="#">Pasatiempos</a></li>
-              			<li><a href="escolaridad.html">Escolaridad</a></li>
-              			<li><a href="">Logros</a></li>
-            		</ul>  
-          		</li>
-          		<li><a href="">Galeria</a></li>
-          		<li><a href="">Sobre Nosotros</a></li>
-        	</ul>
-      </nav>
-		</header>
+		<?php include 'header.php'; ?>
 		<div class="slide">
 			<img src="images/slider-pasatiempos.jpg">
 			<h2> Pasatiempos</h2>
