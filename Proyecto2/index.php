@@ -20,7 +20,7 @@
 	<nav>
         	<ul id="menu">
           		<li><a href="index.html">Inicio</a></li>
-          		<li><a href="information.html">Informacion</a>
+          		<li><a href="information.php">Informacion</a>
             		<ul>
               			<li><a href="pasatiempos.html">Pasatiempos</a></li>
               			<li><a href="escolaridad.html">Escolaridad</a></li>
