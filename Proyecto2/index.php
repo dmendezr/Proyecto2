@@ -1,37 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Portafolio-Index</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
-	<script type="text/javascript" src="js/efecto2.js"></script>
-	<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
-	<noscript>
-			<link rel="stylesheet" type="text/css" href="css/nojs.css" />
-	</noscript>
-	
-</head>
-<body>
-<div class="wrapper">
-	<header>
-	<div class="logo">
-		<a href="#"><img src="images/logo.png"></a>
-	</div>
-	<nav>
-        	<ul id="menu">
-          		<li><a href="index.html">Inicio</a></li>
-          		<li><a href="information.php">Informacion</a>
-            		<ul>
-              			<li><a href="pasatiempos.html">Pasatiempos</a></li>
-              			<li><a href="escolaridad.html">Escolaridad</a></li>
-              			<li><a href="">Logros</a></li>
-            		</ul>  
-          		</li>
-          		<li><a href="">Galeria</a></li>
-          		<li><a href="">Sobre Nosotros</a></li>
-        	</ul>
-      </nav>
-  
+	<?php include 'header.php'; ?>
 	<div id="da-slider" class="da-slider">
 
 		<div class="da-slide">
@@ -174,9 +141,4 @@ $(function() {
 });
 	</script>
 </div>		
-<footer>
-	Universidad Internacional de las Americas
-</footer>
-</body>
-
-</html>
+<?php include 'footer.php'; ?>

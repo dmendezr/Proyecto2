@@ -28,7 +28,7 @@
             		</ul>  
           		</li>
           		<li><a href="">Galeria</a></li>
-          		<li><a href="">Sobre Nosotros</a></li>
+          		<li><a href="aboutus.php">Sobre Nosotros</a></li>
         	</ul>
       </nav>
 		</header>
