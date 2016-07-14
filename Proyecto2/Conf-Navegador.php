@@ -57,8 +57,8 @@
 			<div class="boton">
 				<button>Guardar</button>
 			</div>
-			<?php
 	/*Incluimos el fichero de la clase*/
+	
 	<?php foreach($resultado as $linea) { ?>
                 <div class="producto">
                     <h3>Nombre:</h3>
