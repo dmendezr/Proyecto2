@@ -22,8 +22,8 @@
           		<li><a href="index.php">Inicio</a></li>
           		<li><a href="information.php">Informacion</a>
             		<ul>
-              			<li><a href="pasatiempos.html">Pasatiempos</a></li>
-              			<li><a href="escolaridad.html">Escolaridad</a></li>
+              			<li><a href="pasatiempos.php">Pasatiempos</a></li>
+              			<li><a href="escolaridad.php">Escolaridad</a></li>
               			<li><a href="">Logros</a></li>
             		</ul>  
           		</li>
