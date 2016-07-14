@@ -31,11 +31,6 @@ Class Db{
       public $hostname = 'mysql.hostinger.es';
       public $database = 'u384523145_prpii';
       
-      function __construct(argument)
-      {
-
-      }
-
       public function getUsername() {
          return $this->username;
       }
