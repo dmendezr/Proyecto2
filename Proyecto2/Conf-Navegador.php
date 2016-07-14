@@ -56,7 +56,7 @@
 	include 'php/conectar.php';
 	include 'php/obtener.php';
 	$Cliente = new Cliente();
-	$resultaado = $Cliente->getCliente();
+	$resultado = $Cliente->getCliente();
 	echo $resultado['Nombre'];
 	?>
 		</div>	
