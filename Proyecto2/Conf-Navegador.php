@@ -64,7 +64,7 @@
                     <h3>Nombre:</h3>
                     <p><?php echo $linea['Nombre'] ?></p>
 
-                    <h3>Descipcion:</h3>
+                    <h3>Primer Apellido:</h3>
                     <p><?php echo $linea['Apellido1'] ?></p>
                 </div>
 	 <?php } ?>
