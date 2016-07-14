@@ -6,6 +6,12 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+	<?php 
+		include 'php/conectar.php';
+		include 'php/obtener.php';
+		$Cliente = new Cliente();
+		$resultado = $Cliente->getCliente();
+	?>
 	<div class="wrapper">
 		<div id="header">
 			<div id="logo">
@@ -53,13 +59,15 @@
 			</div>
 			<?php
 	/*Incluimos el fichero de la clase*/
-	include 'php/conectar.php';
-	include 'php/obtener.php';
-	$Cliente = new Cliente();
-	$resultado = $Cliente->getCliente();
-	echo "Esto es";
-	echo $resultado[1];
-	?>
+	<?php foreach($resultado as $linea) { ?>
+                <div class="producto">
+                    <h3>Nombre:</h3>
+                    <p><?php echo $linea['nombre'] ?></p>
+
+                    <h3>Descipción:</h3>
+                    <p><?php echo $linea['descripcion'] ?></p>
+                </div>
+	 <?php } ?>
 		</div>	
 	</div>
 	<footer>
