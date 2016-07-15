@@ -12,7 +12,7 @@ class Persona extends Conectar
 
 	public $resultado = array();
 
-    public function getPersona() {
+    public function getPersonas() {
         try {
             $sql = "SELECT * FROM persona";
             $query = mysqli_query(self::conectar(), $sql);
@@ -21,6 +21,21 @@ class Persona extends Conectar
             while ($queryData = mysqli_fetch_assoc($query)) {
                 $this->resultado[$i] = $queryData;
                 $i++;
+            }
+            return $this->resultado;
+        } catch (Exception $e) {
+            echo $e->getMessage();
+            exit;
+        }
+    }
+
+    public function getPersona($id) {
+        try {
+            $sql = "SELECT * FROM productos WHERE id =" . $id;
+            $query = mysqli_query(self::conectar(), $sql);
+
+            while ($queryData = mysqli_fetch_assoc($query)) {
+                $this->resultado = $queryData;
             }
             return $this->resultado;
         } catch (Exception $e) {

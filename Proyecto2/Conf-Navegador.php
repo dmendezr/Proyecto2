@@ -10,7 +10,7 @@
 		include 'php/conectar.php';
 		include 'php/obtener.php';
 		$Persona = new Persona();
-		$resultado = $Persona->getPersona();
+		$resultado = $Persona->getPersonas();
 	?>
 	<div class="wrapper">
 		<div id="header">

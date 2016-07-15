@@ -1,4 +1,5 @@
 		<?php include 'header.php'; ?>
+		<?php include 'bl/ConsultaInformacion.php'; ?>
 		<div class="slide">
 			<img src="images/slider-informacion.jpg">
 			<h2> Información Básica </h2>
@@ -18,7 +19,11 @@
 			</div>
 			<div class="seccion">
 					<h2 class="encabezado-informacion" id="lblNombre"> Nombre:</h2>	
-					<p class="contenido-informacion" id="txtNombre">Diego Humberto Mendez Rodriguez</p>
+					<p class="contenido-informacion" id="txtNombre">
+					<?php
+						$resultado['Nombre']
+					?>
+					</p>
 					<div class="clear"></div>
 			</div>
 			<div class="seccion">
