@@ -26,15 +26,20 @@
 					<h2 class="encabezado-informacion" id="lblNombre"> Nombre:</h2>	
 					<p class="contenido-informacion" id="txtNombre">
 					<?php
-						$dato = ConsultaNombre($id);
-						echo $dato; 
+						$nombre = ConsultaNombre($id);
+						echo $nombre; 
 					?>
 					</p>
 					<div class="clear"></div>
 			</div>
 			<div class="seccion">
 					<h2 class="encabezado-informacion" id="lblCedula"> Cedula: </h2>
-					<p class="contenido-informacion" id="txtCedula">12345678</p>
+					<p class="contenido-informacion" id="txtCedula">
+					<?php 
+						$cedula = ConsultaCedula($id);
+						echo $cedula;
+					?>
+					</p>
 					<div class="clear"></div>
 			</div>
 			<div class="seccion">
