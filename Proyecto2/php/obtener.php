@@ -31,9 +31,7 @@ class Persona extends Conectar
     public function getPersona($id) {
         try {
             $sql = "SELECT * FROM persona WHERE Cedula =" . $id;
-            echo $sql;
             $query = mysqli_query(self::conectar(), $sql);
-            echo $query;
             while ($queryData = mysqli_fetch_assoc($query)) {
                 $this->resultado = $queryData;
             }
