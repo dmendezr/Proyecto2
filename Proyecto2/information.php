@@ -21,7 +21,8 @@
 					<h2 class="encabezado-informacion" id="lblNombre"> Nombre:</h2>	
 					<p class="contenido-informacion" id="txtNombre">
 					<?php
-						ConsultaNombre("1");
+						$dato = ConsultaNombre("1");
+						echo $dato; 
 					?>
 					</p>
 					<div class="clear"></div>
