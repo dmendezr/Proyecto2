@@ -21,7 +21,7 @@
 		<nav>
         	<ul id="menu">
           		<li><a href="index.php">Inicio</a></li>
-          		<li><a href="information.php">Informacion</a>
+          		<li><a href="information.php?id=1">Informacion</a>
             		<ul>
               			<li><a href="pasatiempos.php">Pasatiempos</a></li>
               			<li><a href="escolaridad.php">Escolaridad</a></li>
