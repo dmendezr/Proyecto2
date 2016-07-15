@@ -21,6 +21,10 @@
 					<h2 class="encabezado-informacion" id="lblNombre"> Nombre:</h2>	
 					<p class="contenido-informacion" id="txtNombre">
 					<?php
+						if(isset($_GET['id'])) {
+							echo "HOLAAAAAAAAAAAAAAAAAAA";
+   							 $id = $_GET['id'];
+						}
 						$dato = ConsultaNombre("1");
 						echo $dato; 
 					?>
