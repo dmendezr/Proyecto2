@@ -1,5 +1,10 @@
 		<?php include 'header.php'; ?>
 		<?php include 'bl/ConsultaInformacion.php'; ?>
+		<?php 						
+			if(isset($_GET['id'])) {
+   				$id = $_GET['id'];
+			}
+		?>
 		<div class="slide">
 			<img src="images/slider-informacion.jpg">
 			<h2> Información Básica </h2>
@@ -21,10 +26,7 @@
 					<h2 class="encabezado-informacion" id="lblNombre"> Nombre:</h2>	
 					<p class="contenido-informacion" id="txtNombre">
 					<?php
-						if(isset($_GET['id'])) {
-							echo "HOLAAAAAAAAAAAAAAAAAAA";
-   							 $id = $_GET['id'];
-						}
+						echo $id . "Hola";
 						$dato = ConsultaNombre("1");
 						echo $dato; 
 					?>
