@@ -16,7 +16,6 @@ class Persona extends Conectar
         try {
             $sql = "SELECT * FROM persona";
             $query = mysqli_query(self::conectar(), $sql);
-
             $i = 0;
             while ($queryData = mysqli_fetch_assoc($query)) {
                 $this->resultado[$i] = $queryData;
@@ -33,7 +32,6 @@ class Persona extends Conectar
         try {
             $sql = "SELECT * FROM person WHERE id =" . $id;
             $query = mysqli_query(self::conectar(), $sql);
-
             while ($queryData = mysqli_fetch_assoc($query)) {
                 $this->resultado = $queryData;
             }
