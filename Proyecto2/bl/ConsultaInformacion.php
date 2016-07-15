@@ -7,5 +7,5 @@
 	include 'php/obtener.php';
 
 	$persona = new Persona();
-	$resultado = $persona->getPersona(1);
+	$resultado = $persona->getPersona("1");
 ?>	
