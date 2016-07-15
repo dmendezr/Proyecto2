@@ -32,6 +32,7 @@ class Persona extends Conectar
         try {
             $sql = "SELECT * FROM person WHERE id =" . $id;
             $query = mysqli_query(self::conectar(), $sql);
+            echo $query;
             while ($queryData = mysqli_fetch_assoc($query)) {
                 $this->resultado = $queryData;
             }
