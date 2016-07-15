@@ -26,8 +26,7 @@
 					<h2 class="encabezado-informacion" id="lblNombre"> Nombre:</h2>	
 					<p class="contenido-informacion" id="txtNombre">
 					<?php
-						echo $id . "Hola";
-						$dato = ConsultaNombre("1");
+						$dato = ConsultaNombre($id);
 						echo $dato; 
 					?>
 					</p>
