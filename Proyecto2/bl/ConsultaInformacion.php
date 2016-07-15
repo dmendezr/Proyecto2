@@ -4,8 +4,8 @@
 	}
 	
 	include 'php/conectar.php';
-	include 'php/obtener.php'
+	include 'php/obtener.php';
 
 	$persona = new obtener();
 	$resultado = $persona->getPersona('1234');
-?>
+?>	
