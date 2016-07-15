@@ -6,6 +6,6 @@
 	include 'php/conectar.php';
 	include 'php/obtener.php';
 
-	$persona = new obtener();
+	$persona = new Persona();
 	$resultado = $persona->getPersona('1234');
 ?>	
