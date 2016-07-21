@@ -8,7 +8,7 @@
 	{
 		public $username = 'u384523145_root';
 		public $password = 'Proyecto1234';
-		public $hostname = 'localhost:3306';
+		public $hostname = 'mysql.hostinger.es';
 		public $database = 'u384523145_prpii';
 		
 		
