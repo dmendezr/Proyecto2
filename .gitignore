@@ -17,6 +17,10 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+#ClaseConectar
+Proyecto2/php/conectar.php
+
+
 # =========================
 # Operating System Files
 # =========================
