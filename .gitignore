@@ -18,7 +18,7 @@ $RECYCLE.BIN/
 *.lnk
 
 #ClaseConectar
-Proyecto2/php/conectar.php
+php/conectar.php
 
 
 # =========================
