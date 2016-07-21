@@ -18,7 +18,7 @@ $RECYCLE.BIN/
 *.lnk
 
 #ClaseConectar
-conectar.php
+php/conectar.php
 
 
 # =========================
@@ -49,3 +49,4 @@ conectar.php
 Network Trash Folder
 Temporary Items
 .apdisk
+Proyecto2/php/conectar.php
