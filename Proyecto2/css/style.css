@@ -216,7 +216,6 @@ footer{
 
 .informacion {
 	background-color: rgba(255,255,255,0.7);
-	padding: 0 100;
 	margin: 0;
 }
 
@@ -276,6 +275,36 @@ footer{
 	
 }
 
+/*
+*********************************************************************************************
+****************************************** Seccion_Configuracion***************************************
+*********************************************************************************************
+*/
+
+.seccion_configuracion{
+	background-color: #0489B1;
+	margin-top: 20px;
+	border-radius: 20%;
+}
+
+.seccion_configuracion{
+	font-size: 20px;
+}
+.seccion_configuracion img{
+	margin-left: 50%;
+	width:60px;
+	height:60px;
+}
+.seccion_configuracion p{
+	padding:0px 40px;
+
+}
+
+.imagenConfig{
+	width:20px;
+	height:20px;
+}
+
 
 /*
 
@@ -286,7 +315,7 @@ footer{
 
  .pasatiempos-contenido{
  	background-color: rgba(255,255,255,0.7);
-	padding: 0 100;
+	padding: 0px 100px;
 	margin: 0;
 	padding-left: 50px;
 	padding-top: 50px;
@@ -304,7 +333,7 @@ footer{
  .pasatiempos-contenido img:hover{
  	animation-name: gira-y-quedate;
   	animation-duration: 1s;
-  	animation-iteration-count 1;
+  	animation-iteration-count :1;
   	animation-fill-mode: forwards;
  }
 

@@ -1,10 +1,5 @@
 		<?php include 'header.php'; ?>
 		<?php include 'bl/ConsultaInformacion.php'; ?>
-		<?php 						
-			if(isset($_GET['id'])) {
-   				$id = $_GET['id'];
-			}
-		?>
 		<div class="slide">
 			<img src="images/slider-informacion.jpg">
 			<h2> Información Básica </h2>
@@ -26,8 +21,7 @@
 					<h2 class="encabezado-informacion" id="lblNombre"> Nombre:</h2>	
 					<p class="contenido-informacion" id="txtNombre">
 					<?php
-						$nombre = ConsultaNombre($id);
-						echo $nombre; 
+						echo $datos['Nombre'] ." ". $datos ['Apellido1'] ." ". $datos['Apellido2'];
 					?>
 					</p>
 					<div class="clear"></div>
@@ -36,30 +30,43 @@
 					<h2 class="encabezado-informacion" id="lblCedula"> Cedula: </h2>
 					<p class="contenido-informacion" id="txtCedula">
 					<?php 
-						$cedula = ConsultaCedula($id);
-						echo $cedula;
+						echo $datos ['Cedula'];
 					?>
 					</p>
 					<div class="clear"></div>
 			</div>
 			<div class="seccion">
 					<h2 class="encabezado-informacion" id="lblCP"> Codigo Postal: </h2>
-					<p class="contenido-informacion" id="txtCP">1234123412</p>
+					<p class="contenido-informacion" id="txtCP">
+						<?php echo $datos['codigo_postal'] ?>
+					</p>
 					<div class="clear"></div>
 			</div>
 			<div class="seccion">
 					<h2 class="encabezado-informacion" id="lblFN"> Fecha de Nacimiento: </h2>
-					<p class="contenido-informacion" id="txtFN">12/10/1995</p>
+					<p class="contenido-informacion" id="txtFN">
+						<?php
+							echo $datos['FechaNacimiento'];
+						?>
+					</p>
 					<div class="clear"></div>
 			</div>
 			<div class="seccion">
 					<h2 class="encabezado-informacion" id="lblSexo"> Sexo: </h2>
-					<p class="contenido-informacion" id="txtSexo">Masculino</p>
+					<p class="contenido-informacion" id="txtSexo">
+						<?php
+							echo $datos ['Sexo'];
+						?>
+					</p>
 					<div class="clear"></div>
 			</div>
 			<div class="seccion">
 					<h2 class="encabezado-informacion" id="lblEdad">Edad: </h2>
-					<p class="contenido-informacion" id="txtEdad">20</p>
+					<p class="contenido-informacion" id="txtEdad">
+						<?php
+							echo $datos ['Edad'];
+						?>
+					</p>
 					<div class="clear"></div>
 			</div>
 			<div class="header-seccion">
@@ -69,7 +76,8 @@
 			</div>
 			<div class="seccion">
 					<h2 class="encabezado-informacion" id="lblPais"> Pais</h2>	
-					<p class="contenido-informacion" id="txtPais">Costa Rica</p>
+					<p class="contenido-informacion" id="txtPais">
+					</p>
 					<div class="clear"></div>
 			</div>
 			<div class="seccion">
