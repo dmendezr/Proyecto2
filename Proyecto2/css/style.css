@@ -1084,15 +1084,47 @@ footer{
 
 .content-configuracion{
 	background-color: rgba(255,255,255,0.7);
-	margin-top: 10px;	
+	margin-top: 10px;
 	padding-top: 30px;
 }
 
-.body-text{
-	text-align: center;
-	margin-top: 10px;	
+input {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 }
 
-.boton{
-	text-align: center;
+.seccionInputNombre{
+	/*margin-left:100px;*/
+	margin-left:100px;
+}
+
+.cabecerasNombre{
+	margin-left: 200px;
+	/*margin-left: 100px;*/
+}
+
+.inputNombre {
+	width:200px;
+	margin: 20px;
+
+}
+
+.lblNombre {
+	margin-left: 40px;
+	margin-bottom:10px;
+
+	width: 130px;
+	/*margin-bottom: 10px;*/
+}
+
+input, button {
+	padding: 5px;
+	border:1px #0078ff solid;
+	border-radius: 5px;
+}
+
+button {
+	background-color: #0078ff;
+	color: #ffffff;
 }
