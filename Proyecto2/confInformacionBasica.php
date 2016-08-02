@@ -16,18 +16,28 @@
 				<label for="segundoApellido" class="lblNombre">Segundo Apellido</label>
 				<input type="text" name="segundoApellido" value="<?php echo $datos['Apellido2'] ?>" class="inputNombre">
 
-
-
-			<label for="codigoPostal" >Codigo Postal</label>
-			<input type="text" name="codigoPostal" value="<?php echo $datos['codigo_postal'] ?>" >
-
-<!--			AQUI VA LA FECHA DE NACIMIENTO-->
-
-			<label for="sexo" >Sexo</label>
-			<input type="text" name="sexo" value="<?php echo $datos['Sexo'] ?>" >
-
-			<label for="edad" >Edad</label>
-			<input type="text" name="edad" value="<?php echo $datos['Edad'] ?>" >
+			<div class="campoFecha">
+				<label for="fechaNacimiento">Fecha de Nacimiento</label>
+				<input type="date" name="fechaNacimiento" value="<?php echo $datos['FechaNacimiento'] ?>">
+			</div>
+			
+			<div class="campos">
+				<div class="campoLinea">
+					<label for="codigoPostal" class ="campo" >Codigo Postal</label>
+					<input type="text" name="codigoPostal"  value="<?php echo $datos['codigo_postal'] ?>" class ="campo" >
+				</div>
+				<div class="campoLinea">
+					<label for="sexo"  class ="campo">Sexo</label>
+					<input type="text" name="sexo" value="<?php echo $datos['Sexo'] ?>" class ="campo" >
+					<div class="clear"></div>
+				</div>
+				<div class="campoLinea">
+					<label for="edad" class ="campo" >Edad</label>
+					<input type="text" name="edad" value="<?php echo $datos['Edad'] ?>" class ="campo" >
+					<div class="clear"></div>
+				</div>
+			</div>
+			<button>Actualizar</button>
 		</form>
 			
 	</div>

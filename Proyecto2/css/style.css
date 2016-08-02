@@ -1085,6 +1085,7 @@ footer{
 .content-configuracion{
 	background-color: rgba(255,255,255,0.7);
 	margin-top: 10px;
+	padding-left: 30px;
 	padding-top: 30px;
 }
 
@@ -1094,30 +1095,31 @@ input {
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 }
 
-.seccionInputNombre{
-	/*margin-left:100px;*/
-	margin-left:100px;
+.campoFecha{
+	margin-top:15px;
 }
 
-.cabecerasNombre{
-	margin-left: 200px;
-	/*margin-left: 100px;*/
+.campo{
+	display: block;
 }
 
-.inputNombre {
-	width:200px;
-	margin: 20px;
+.campoLinea {
+	margin-top: 15px;
+}
+ .campoLinea label {
+	 float: left;
+
+ }
+
+.campoLinea input {
+	margin-left: 110px;
+	width: 200px;
 
 }
+.campos{
+	margin-top: 20px;
 
-.lblNombre {
-	margin-left: 40px;
-	margin-bottom:10px;
-
-	width: 130px;
-	/*margin-bottom: 10px;*/
 }
-
 input, button {
 	padding: 5px;
 	border:1px #0078ff solid;
