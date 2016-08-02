@@ -7,7 +7,7 @@
         ?>
 
         <div class="slide">
-            <img src="images/slider-informacion.jpg">
+            <img src="images/slider-logros.jpg">
             <h2> Logros </h2>
 
         </div>
