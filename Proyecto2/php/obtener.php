@@ -41,4 +41,36 @@ class Persona extends Conectar
             exit;
         }
     }
+
+    public function getLogros() {
+        try {
+            $sql = "SELECT * FROM logros";
+            $query = mysqli_query(self::conectar(), $sql);
+            $i = 0;
+            while ($queryData = mysqli_fetch_assoc($query)) {
+                $this->resultado[$i] = $queryData;
+                $i++;
+            }
+            return $this->resultado;
+        } catch (Exception $e) {
+            echo $e->getMessage();
+            exit;
+        }
+    }
+
+    public function getLogro($id) {
+        try {
+            $sql = "SELECT * FROM logros WHERE Cedula =" . $id;
+            $query = mysqli_query(self::conectar(), $sql);
+            while ($queryData = mysqli_fetch_assoc($query)) {
+                $this->resultado = $queryData;
+            }
+            return $this->resultado;
+        } catch (Exception $e) {
+            echo $e->getMessage();
+            exit;
+        }
+    }
+
+
 }

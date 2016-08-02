@@ -199,5 +199,28 @@ $(document).ready(function(){
 		);
 });
 
+$(document).ready(function(){
+	$("#txtLogros").hover(
+		function(){
+			$("#lblLogros").css({"transform": "scale(0.8)"});
+			$("#lblLogros").css({"color": "#8904B1"});
+		},function(){
+			$("#lblLogros").css({"transform": "inherit"});
+			$("#lblLogros").css({"color": "inherit"});
+		}
+	);
+});
+
+$(document).ready(function(){
+	$("#txtDescripcion").hover(
+		function(){
+			$("#lblDescripcion").css({"transform": "scale(0.8)"});
+			$("#lblDescripcion").css({"color": "#8904B1"});
+		},function(){
+			$("#lblDescripcion").css({"transform": "inherit"});
+			$("#lblDescripcion").css({"color": "inherit"});
+		}
+	);
+});
 
 

@@ -25,7 +25,7 @@
             		<ul>
               			<li><a href="pasatiempos.php">Pasatiempos</a></li>
               			<li><a href="escolaridad.php">Escolaridad</a></li>
-              			<li><a href="">Logros</a></li>
+              			<li><a href="logros.php?id=1">Logros</a></li>
             		</ul>  
           		</li>
           		<li><a href="">Galeria</a></li>
