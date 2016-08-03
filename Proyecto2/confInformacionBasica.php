@@ -19,21 +19,25 @@
 			<div class="campoFecha">
 				<label for="fechaNacimiento">Fecha de Nacimiento</label>
 				<input type="date" name="fechaNacimiento" value="<?php echo $datos['FechaNacimiento'] ?>">
+				<img src="images/hide.png">
 			</div>
 			
 			<div class="campos">
 				<div class="campoLinea">
 					<label for="codigoPostal" class ="campo" >Codigo Postal</label>
 					<input type="text" name="codigoPostal"  value="<?php echo $datos['codigo_postal'] ?>" class ="campo" >
+					<img src="images/hide.png">
 				</div>
 				<div class="campoLinea">
 					<label for="sexo"  class ="campo">Sexo</label>
 					<input type="text" name="sexo" value="<?php echo $datos['Sexo'] ?>" class ="campo" >
+					<img src="images/hide.png">
 					<div class="clear"></div>
 				</div>
 				<div class="campoLinea">
 					<label for="edad" class ="campo" >Edad</label>
 					<input type="text" name="edad" value="<?php echo $datos['Edad'] ?>" class ="campo" >
+					<img src="images/hide.png">
 					<div class="clear"></div>
 				</div>
 			</div>
