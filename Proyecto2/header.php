@@ -24,7 +24,7 @@
           		<li><a href="information.php?id=1">Informacion</a>
             		<ul>
               			<li><a href="pasatiempos.php">Pasatiempos</a></li>
-              			<li><a href="escolaridad.php">Escolaridad</a></li>
+              			<li><a href="escolaridad.php?id=1">Escolaridad</a></li>
               			<li><a href="logros.php?id=1">Logros</a></li>
             		</ul>  
           		</li>
