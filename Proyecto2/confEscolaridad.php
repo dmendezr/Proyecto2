@@ -1,44 +1,30 @@
+<?php
+include "headerConfig.php";
+if (isset($_GET['id'])){
+	$id = $_GET['id'];
 
-		<div class="content-configuracion">
-			<div id="Picture">
-				<img src="#">
-				<button>Subir Foto</button>
-			</div>
-			
+}
+include "bl/consultaEscolaridad.php";
+?>
+	<script src="js/editarInformacion.js" type="application/javascript"></script>
 
-			<div class="body-text">
-				<textarea>Escriba Aqui</textarea>
-				
-			</div>
-			<div class="body-text">
-				<textarea>Escriba Aqui</textarea>
-				
-			</div>
-			<div class="body-text">
-				<textarea>Escriba Aqui</textarea>
-				
-			</div>
-			<div class="body-text">
-				<textarea>Escriba Aqui</textarea>
-				
-			</div>
-			<div class="body-text">
-				<textarea>Escriba Aqui</textarea>
-			</div>
-			<div class="body-text">
-				<textarea>Escriba Aqui</textarea>
-			</div>
-			<div class="body-text">
-				<textarea>Escriba Aqui</textarea>
-			</div>
-			<div class="boton">
-				<button>Guardar</button>
-			</div>
+	<div class="content-configuracion">
+		<form action="bl/editarInformacionBasica.php" method = "get">
+		<tr>
+			<td><label for="institucionEducativa">Institucion Educativa</label></td>
+			<td><label for="tituloObtenido">Titulo Obtenido</label></td>
+			<td><label for="AnnoInicio">Anno de Inicio</label></td>
+			<td><label for="AnnoCulminacion">Anno de Culminacion</label></td>
+			<td><label for="Descripcion">Descripcion</label></td>
+		</tr>
+			<?php foreach ($datos as $linea) {?>
+				<tr>
+					<td><input type="text"></td>
 
-		</div>
+				</tr>
+			<?php } ?>
+		</form>
 	</div>
-	<footer>
-			<h3>Universidad Internacional de la Americas
-	</footer>
-</body>
-</html>
+<?php
+include "footer.php";
+?>

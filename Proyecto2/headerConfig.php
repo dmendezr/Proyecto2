@@ -5,6 +5,7 @@
 <head>
     <title>Configuracion 3</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -16,10 +17,10 @@
         <nav>
             <ul id="menu">
                 <li><a href="#">Inicio</a></li>
-                <li><a href="confInformacionBasica.php">Informacion Basica</a>
+                <li><a href="confInformacionBasica.php?id=1">Informacion Basica</a>
                     <ul>
                         <li><a href="confDireccion.php">Direccion</a></li>
-                        <li><a href="confEscolaridad.php">Escolaridad</a></li>
+                        <li><a href="confEscolaridad.php?id=1">Escolaridad</a></li>
                         <li><a href="#">Logros</a></li>
                     </ul>
                 </li>

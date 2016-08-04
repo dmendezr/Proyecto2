@@ -24,18 +24,18 @@
       <file leaf-file-name="confInformacionBasica.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/confInformacionBasica.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            <state relative-caret-position="546">
+              <caret line="53" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editarInformacionBasica.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bl/editarInformacionBasica.php">
+      <file leaf-file-name="editarInformacion.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/editarInformacion.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+            <state relative-caret-position="317">
+              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -44,48 +44,53 @@
       <file leaf-file-name="editar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/editar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="117" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="117" />
+            <state relative-caret-position="408">
+              <caret line="28" column="76" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="76" />
               <folding>
-                <marker date="1470171919867" expanded="true" signature="428:485" ph="UPDATE `u384... " />
-                <marker date="1470171919867" expanded="true" signature="428:515" ph="UPDATE `u384... " />
-                <marker date="1470171919867" expanded="true" signature="428:614" ph="UPDATE `u384... " />
-                <marker date="1470171919867" expanded="true" signature="428:645" ph="UPDATE `u384... " />
-                <marker date="1470171919867" expanded="true" signature="428:693" ph="UPDATE `u384... " />
-                <marker date="1470171919867" expanded="true" signature="428:703" ph="UPDATE `u384... " />
-                <marker date="1470171919867" expanded="true" signature="428:720" ph="UPDATE `u384... " />
-                <marker date="1470171919867" expanded="true" signature="428:728" ph="UPDATE `u384... " />
+                <marker date="1470192567065" expanded="true" signature="428:485" ph="UPDATE `u384... " />
+                <marker date="1470192567065" expanded="true" signature="428:515" ph="UPDATE `u384... " />
+                <marker date="1470192567065" expanded="true" signature="428:614" ph="UPDATE `u384... " />
+                <marker date="1470192567065" expanded="true" signature="428:645" ph="UPDATE `u384... " />
+                <marker date="1470192567065" expanded="true" signature="428:693" ph="UPDATE `u384... " />
+                <marker date="1470192567065" expanded="true" signature="428:703" ph="UPDATE `u384... " />
+                <marker date="1470192567065" expanded="true" signature="428:720" ph="UPDATE `u384... " />
+                <marker date="1470192567065" expanded="true" signature="428:728" ph="UPDATE `u384... " />
+                <marker date="1470192567065" expanded="true" signature="1088:1143" ph="UPDATE `u384... " />
+                <marker date="1470192567065" expanded="true" signature="1088:1179" ph="UPDATE `u384... " />
+                <marker date="1470192567065" expanded="true" signature="1088:1187" ph="UPDATE `u384... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2312">
-              <caret line="136" column="51" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="1112" column="1" selection-start-line="1112" selection-start-column="1" selection-end-line="1112" selection-end-column="1" />
+            <state relative-caret-position="648">
+              <caret line="1160" column="17" selection-start-line="1160" selection-start-column="17" selection-end-line="1160" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="confDireccion.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/confDireccion.php">
+      <file leaf-file-name="ocultaCamposInformacion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bl/ocultaCamposInformacion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ocultarInformacion.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/ocultarInformacion.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,23 +98,25 @@
       <file leaf-file-name="obtener.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/obtener.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+            <state relative-caret-position="495">
+              <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
               <folding>
-                <marker date="1470117159294" expanded="true" signature="196:217" ph="SELECT * FRO... persona" />
-                <marker date="1470117159294" expanded="true" signature="660:696" ph="SELECT * FRO... persona" />
-                <marker date="1470117159294" expanded="true" signature="1095:1115" ph="SELECT * FRO... logros" />
-                <marker date="1470117159294" expanded="true" signature="1556:1591" ph="SELECT * FRO... logros" />
+                <marker date="1470283091509" expanded="true" signature="196:217" ph="SELECT * FRO... persona" />
+                <marker date="1470283091509" expanded="true" signature="660:696" ph="SELECT * FRO... persona" />
+                <marker date="1470283091509" expanded="true" signature="1095:1115" ph="SELECT * FRO... logros" />
+                <marker date="1470283091509" expanded="true" signature="1563:1599" ph="SELECT * FRO... logros" />
+                <marker date="1470283091509" expanded="true" signature="2045:2080" ph="SELECT * FRO... logros" />
+                <marker date="1470283091509" expanded="true" signature="2492:2533" ph="SELECT * FRO... escolaridad" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="confEscolaridad.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="confEscolaridad.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/confEscolaridad.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+            <state relative-caret-position="306">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -118,18 +125,18 @@
       <file leaf-file-name="ConsultaInformacion.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bl/ConsultaInformacion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jsonInformacionBasica.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/json/jsonInformacionBasica.php">
+      <file leaf-file-name="consultaEscolaridad.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bl/consultaEscolaridad.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="255">
+              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -150,18 +157,24 @@
         <option value="$PROJECT_DIR$/php/conectar.php" />
         <option value="$PROJECT_DIR$/bl/ConsultaInformacion.php" />
         <option value="$PROJECT_DIR$/information.php" />
-        <option value="$PROJECT_DIR$/confEscolaridad.php" />
-        <option value="$PROJECT_DIR$/headerConfig.php" />
         <option value="$PROJECT_DIR$/confDireccion.php" />
         <option value="$PROJECT_DIR$/json/jsonInformacionBasica.php" />
         <option value="$PROJECT_DIR$/json/jsonOcultarInformacionBasica.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/js/JasonEditarInformacion.js" />
-        <option value="$PROJECT_DIR$/js/editarInformacion.js" />
-        <option value="$PROJECT_DIR$/php/editar.php" />
         <option value="$PROJECT_DIR$/bl/editarInformacionBasica.php" />
-        <option value="$PROJECT_DIR$/confInformacionBasica.php" />
+        <option value="$PROJECT_DIR$/json/jsonOcultaInformacion.php" />
+        <option value="$PROJECT_DIR$/php/editar.php" />
+        <option value="$PROJECT_DIR$/js/ocultarInformacion.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/bl/ocultaCamposInformacion.php" />
+        <option value="$PROJECT_DIR$/js/jquery-3.0.0.min.js" />
+        <option value="$PROJECT_DIR$/js/editarInformacion.js" />
+        <option value="$PROJECT_DIR$/confInformacionBasica.php" />
+        <option value="$PROJECT_DIR$/headerConfig.php" />
+        <option value="$PROJECT_DIR$/php/obtener.php" />
+        <option value="$PROJECT_DIR$/bl/consultaEscolaridad.php" />
+        <option value="$PROJECT_DIR$/confEscolaridad.php" />
       </list>
     </option>
   </component>
@@ -301,7 +314,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/Programacion-3/semana12" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/Programacion-3/semana13-ejercicio-delete-ajax" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager">
@@ -368,12 +381,12 @@
       <workItem from="1469069267637" duration="2437000" />
       <workItem from="1469678922259" duration="2627000" />
       <workItem from="1469989732543" duration="30855000" />
-      <workItem from="1470185429913" duration="617000" />
+      <workItem from="1470185429913" duration="10060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36536000" />
+    <option name="totallyTimeSpent" value="45979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -435,14 +448,17 @@
         <state relative-caret-position="170">
           <caret line="10" column="117" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="117" />
           <folding>
-            <marker date="1470171919867" expanded="true" signature="428:485" ph="UPDATE `u384... " />
-            <marker date="1470171919867" expanded="true" signature="428:515" ph="UPDATE `u384... " />
-            <marker date="1470171919867" expanded="true" signature="428:614" ph="UPDATE `u384... " />
-            <marker date="1470171919867" expanded="true" signature="428:645" ph="UPDATE `u384... " />
-            <marker date="1470171919867" expanded="true" signature="428:693" ph="UPDATE `u384... " />
-            <marker date="1470171919867" expanded="true" signature="428:703" ph="UPDATE `u384... " />
-            <marker date="1470171919867" expanded="true" signature="428:720" ph="UPDATE `u384... " />
-            <marker date="1470171919867" expanded="true" signature="428:728" ph="UPDATE `u384... " />
+            <marker date="1470192567065" expanded="true" signature="428:485" ph="UPDATE `u384... " />
+            <marker date="1470192567065" expanded="true" signature="428:515" ph="UPDATE `u384... " />
+            <marker date="1470192567065" expanded="true" signature="428:614" ph="UPDATE `u384... " />
+            <marker date="1470192567065" expanded="true" signature="428:645" ph="UPDATE `u384... " />
+            <marker date="1470192567065" expanded="true" signature="428:693" ph="UPDATE `u384... " />
+            <marker date="1470192567065" expanded="true" signature="428:703" ph="UPDATE `u384... " />
+            <marker date="1470192567065" expanded="true" signature="428:720" ph="UPDATE `u384... " />
+            <marker date="1470192567065" expanded="true" signature="428:728" ph="UPDATE `u384... " />
+            <marker date="1470192567065" expanded="true" signature="1088:1143" ph="UPDATE `u384... " />
+            <marker date="1470192567065" expanded="true" signature="1088:1179" ph="UPDATE `u384... " />
+            <marker date="1470192567065" expanded="true" signature="1088:1187" ph="UPDATE `u384... " />
           </folding>
         </state>
       </provider>
@@ -476,10 +492,12 @@
         <state relative-caret-position="1020">
           <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
           <folding>
-            <marker date="1470117159294" expanded="true" signature="196:217" ph="SELECT * FRO... persona" />
-            <marker date="1470117159294" expanded="true" signature="660:696" ph="SELECT * FRO... persona" />
-            <marker date="1470117159294" expanded="true" signature="1095:1115" ph="SELECT * FRO... logros" />
-            <marker date="1470117159294" expanded="true" signature="1556:1591" ph="SELECT * FRO... logros" />
+            <marker date="1470283091509" expanded="true" signature="196:217" ph="SELECT * FRO... persona" />
+            <marker date="1470283091509" expanded="true" signature="660:696" ph="SELECT * FRO... persona" />
+            <marker date="1470283091509" expanded="true" signature="1095:1115" ph="SELECT * FRO... logros" />
+            <marker date="1470283091509" expanded="true" signature="1563:1599" ph="SELECT * FRO... logros" />
+            <marker date="1470283091509" expanded="true" signature="2045:2080" ph="SELECT * FRO... logros" />
+            <marker date="1470283091509" expanded="true" signature="2492:2533" ph="SELECT * FRO... escolaridad" />
           </folding>
         </state>
       </provider>
@@ -512,6 +530,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -519,6 +538,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1326">
           <caret line="78" column="66" selection-start-line="78" selection-start-column="66" selection-end-line="78" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -551,10 +571,12 @@
         <state relative-caret-position="187">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <marker date="1470117159294" expanded="true" signature="196:217" ph="SELECT * FRO... persona" />
-            <marker date="1470117159294" expanded="true" signature="660:696" ph="SELECT * FRO... persona" />
-            <marker date="1470117159294" expanded="true" signature="1095:1115" ph="SELECT * FRO... logros" />
-            <marker date="1470117159294" expanded="true" signature="1556:1591" ph="SELECT * FRO... logros" />
+            <marker date="1470283091509" expanded="true" signature="196:217" ph="SELECT * FRO... persona" />
+            <marker date="1470283091509" expanded="true" signature="660:696" ph="SELECT * FRO... persona" />
+            <marker date="1470283091509" expanded="true" signature="1095:1115" ph="SELECT * FRO... logros" />
+            <marker date="1470283091509" expanded="true" signature="1563:1599" ph="SELECT * FRO... logros" />
+            <marker date="1470283091509" expanded="true" signature="2045:2080" ph="SELECT * FRO... logros" />
+            <marker date="1470283091509" expanded="true" signature="2492:2533" ph="SELECT * FRO... escolaridad" />
           </folding>
         </state>
       </provider>
@@ -563,6 +585,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -573,39 +596,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/headerConfig.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/conectar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json/jsonInformacionBasica.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bl/ConsultaInformacion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -618,58 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/editarInformacion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/confEscolaridad.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/obtener.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
-          <folding>
-            <marker date="1470117159294" expanded="true" signature="196:217" ph="SELECT * FRO... persona" />
-            <marker date="1470117159294" expanded="true" signature="660:696" ph="SELECT * FRO... persona" />
-            <marker date="1470117159294" expanded="true" signature="1095:1115" ph="SELECT * FRO... logros" />
-            <marker date="1470117159294" expanded="true" signature="1556:1591" ph="SELECT * FRO... logros" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/editar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="117" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="117" />
-          <folding>
-            <marker date="1470171919867" expanded="true" signature="428:485" ph="UPDATE `u384... " />
-            <marker date="1470171919867" expanded="true" signature="428:515" ph="UPDATE `u384... " />
-            <marker date="1470171919867" expanded="true" signature="428:614" ph="UPDATE `u384... " />
-            <marker date="1470171919867" expanded="true" signature="428:645" ph="UPDATE `u384... " />
-            <marker date="1470171919867" expanded="true" signature="428:693" ph="UPDATE `u384... " />
-            <marker date="1470171919867" expanded="true" signature="428:703" ph="UPDATE `u384... " />
-            <marker date="1470171919867" expanded="true" signature="428:720" ph="UPDATE `u384... " />
-            <marker date="1470171919867" expanded="true" signature="428:728" ph="UPDATE `u384... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2312">
@@ -678,26 +620,161 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/json/jsonInformacionBasica.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ocultarInformacion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="1160" column="17" selection-start-line="1160" selection-start-column="17" selection-end-line="1160" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/jsonOcultaInformacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="e#6#87#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/editar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" column="76" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="76" />
+          <folding>
+            <marker date="1470192567065" expanded="true" signature="428:485" ph="UPDATE `u384... " />
+            <marker date="1470192567065" expanded="true" signature="428:515" ph="UPDATE `u384... " />
+            <marker date="1470192567065" expanded="true" signature="428:614" ph="UPDATE `u384... " />
+            <marker date="1470192567065" expanded="true" signature="428:645" ph="UPDATE `u384... " />
+            <marker date="1470192567065" expanded="true" signature="428:693" ph="UPDATE `u384... " />
+            <marker date="1470192567065" expanded="true" signature="428:703" ph="UPDATE `u384... " />
+            <marker date="1470192567065" expanded="true" signature="428:720" ph="UPDATE `u384... " />
+            <marker date="1470192567065" expanded="true" signature="428:728" ph="UPDATE `u384... " />
+            <marker date="1470192567065" expanded="true" signature="1088:1143" ph="UPDATE `u384... " />
+            <marker date="1470192567065" expanded="true" signature="1088:1179" ph="UPDATE `u384... " />
+            <marker date="1470192567065" expanded="true" signature="1088:1187" ph="UPDATE `u384... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bl/ocultaCamposInformacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-3.0.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bl/editarInformacionBasica.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+        <state relative-caret-position="291">
+          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/headerConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/editarInformacion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/confInformacionBasica.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        <state relative-caret-position="546">
+          <caret line="53" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/php/obtener.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="1112" column="1" selection-start-line="1112" selection-start-column="1" selection-end-line="1112" selection-end-column="1" />
+        <state relative-caret-position="495">
+          <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
+          <folding>
+            <marker date="1470283091509" expanded="true" signature="196:217" ph="SELECT * FRO... persona" />
+            <marker date="1470283091509" expanded="true" signature="660:696" ph="SELECT * FRO... persona" />
+            <marker date="1470283091509" expanded="true" signature="1095:1115" ph="SELECT * FRO... logros" />
+            <marker date="1470283091509" expanded="true" signature="1563:1599" ph="SELECT * FRO... logros" />
+            <marker date="1470283091509" expanded="true" signature="2045:2080" ph="SELECT * FRO... logros" />
+            <marker date="1470283091509" expanded="true" signature="2492:2533" ph="SELECT * FRO... escolaridad" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bl/ConsultaInformacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bl/consultaEscolaridad.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confEscolaridad.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
       </provider>

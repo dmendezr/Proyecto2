@@ -29,9 +29,12 @@ var app = {
         this.cargarInformacion();
     },
     cargarInformacion:function () {
+        var nombre = $('nombre').val()
+
         $.ajax({
             url: "./json/jsonInformacionBasica.php",
-            type:"GET",
+            type:"POST",
+            data: {'nombre': nombre,},
             dataType:"json",
             success: function (resultado) {
                 if(resultado != ""){
@@ -42,6 +45,35 @@ var app = {
     }
 }
 
-$(document).ready(function () {
-    cargaID.init();
-});
+var ocultarColumnaSexo = {
+    init: function (id,estadoColumna) {
+        this.updateEstadoColumna(id,estadoColumna)
+    },
+
+    updateEstadoColumna: function(id,estadoColumna) {
+        $.ajax({
+        url: "./bl/ocultaCamposInformacion.php",
+        type: "POST",
+        data: {'id' : id,'estadoColumna' : estadoColumna},
+        success: function(resultado) {
+            if (resultado == 1) {
+                window.alert("Registro Actualizado")
+            }
+        },
+            complete:function () {
+                window.alert("Registro Actualizado")
+            }
+            ,
+        error: function( jqxhr, textStatus, error ) {
+            var err = textStatus + ", " + error;
+            console.log( "Request Failed: " + err );
+        }
+    });
+    }
+}
+
+
+
+// $(document).ready(function () {
+//     cargaID.init();
+// });

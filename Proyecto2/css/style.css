@@ -1109,9 +1109,11 @@ input {
 	margin-top:15px;
 }
 
-.campoFecha img{
-	width: 20px;
-	height:20px;
+
+
+.campoFecha a img{
+    width: 20px;
+    height:20px;
 }
 
 .campo{
@@ -1125,11 +1127,19 @@ input {
 	 float: left;
  }
 
-.campoLinea img {
+.campoLinea a {
 	display: inline-block;
 	width: 20px;
 	height:20px;
 }
+
+.campoLinea a img {
+    width: 20px;
+    height:20px;
+
+}
+
+
 
 .campoLinea input {
 	margin-left: 30px;
