@@ -28,7 +28,7 @@
               			<li><a href="logros.php?id=1">Logros</a></li>
             		</ul>  
           		</li>
-          		<li><a href="">Galeria</a></li>
+          		<li><a href="Galeria.php">Galeria</a></li>
           		<li><a href="aboutus.php">Sobre Nosotros</a></li>
         	</ul>
       </nav>
