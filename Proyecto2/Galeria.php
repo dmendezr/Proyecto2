@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Portafolio-Index</title>
+	<title>Galeria-Index</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta charset="utf-8">
 	<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
