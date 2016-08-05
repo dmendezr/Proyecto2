@@ -59,14 +59,14 @@
             <state relative-caret-position="-168">
               <caret line="97" column="50" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
               <folding>
-                <marker date="1470371408082" expanded="true" signature="196:217" ph="SELECT * FRO... persona" />
-                <marker date="1470371408082" expanded="true" signature="660:696" ph="SELECT * FRO... persona" />
-                <marker date="1470371408082" expanded="true" signature="1095:1115" ph="SELECT * FRO... logros" />
-                <marker date="1470371408082" expanded="true" signature="1563:1599" ph="SELECT * FRO... logros" />
-                <marker date="1470371408082" expanded="true" signature="2045:2080" ph="SELECT * FRO... logros" />
-                <marker date="1470371408082" expanded="true" signature="2486:2511" ph="SELECT * FRO... escolaridad" />
-                <marker date="1470371408082" expanded="true" signature="2942:2983" ph="SELECT * FRO... escolaridad" />
-                <marker date="1470371408082" expanded="true" signature="3436:3476" ph="SELECT * FRO... escolaridad" />
+                <marker date="1470372321266" expanded="true" signature="196:217" ph="SELECT * FRO... persona" />
+                <marker date="1470372321266" expanded="true" signature="660:696" ph="SELECT * FRO... persona" />
+                <marker date="1470372321266" expanded="true" signature="1095:1115" ph="SELECT * FRO... logros" />
+                <marker date="1470372321266" expanded="true" signature="1563:1599" ph="SELECT * FRO... logros" />
+                <marker date="1470372321266" expanded="true" signature="2045:2080" ph="SELECT * FRO... logros" />
+                <marker date="1470372321266" expanded="true" signature="2486:2511" ph="SELECT * FRO... escolaridad" />
+                <marker date="1470372321266" expanded="true" signature="2942:2983" ph="SELECT * FRO... escolaridad" />
+                <marker date="1470372321266" expanded="true" signature="3436:3476" ph="SELECT * FRO... escolaridad" />
               </folding>
             </state>
           </provider>
@@ -85,8 +85,6 @@
       <file leaf-file-name="editarEscolaridad.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/editarEscolaridad.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -369,12 +367,10 @@
       <workItem from="1469678922259" duration="2627000" />
       <workItem from="1469989732543" duration="30855000" />
       <workItem from="1470185429913" duration="10060000" />
-      <workItem from="1470365224497" duration="7003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -482,14 +478,14 @@
         <state relative-caret-position="1785">
           <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
           <folding>
-            <marker date="1470371408082" expanded="true" signature="196:217" ph="SELECT * FRO... persona" />
-            <marker date="1470371408082" expanded="true" signature="660:696" ph="SELECT * FRO... persona" />
-            <marker date="1470371408082" expanded="true" signature="1095:1115" ph="SELECT * FRO... logros" />
-            <marker date="1470371408082" expanded="true" signature="1563:1599" ph="SELECT * FRO... logros" />
-            <marker date="1470371408082" expanded="true" signature="2045:2080" ph="SELECT * FRO... logros" />
-            <marker date="1470371408082" expanded="true" signature="2486:2511" ph="SELECT * FRO... escolaridad" />
-            <marker date="1470371408082" expanded="true" signature="2942:2983" ph="SELECT * FRO... escolaridad" />
-            <marker date="1470371408082" expanded="true" signature="3436:3476" ph="SELECT * FRO... escolaridad" />
+            <marker date="1470372321266" expanded="true" signature="196:217" ph="SELECT * FRO... persona" />
+            <marker date="1470372321266" expanded="true" signature="660:696" ph="SELECT * FRO... persona" />
+            <marker date="1470372321266" expanded="true" signature="1095:1115" ph="SELECT * FRO... logros" />
+            <marker date="1470372321266" expanded="true" signature="1563:1599" ph="SELECT * FRO... logros" />
+            <marker date="1470372321266" expanded="true" signature="2045:2080" ph="SELECT * FRO... logros" />
+            <marker date="1470372321266" expanded="true" signature="2486:2511" ph="SELECT * FRO... escolaridad" />
+            <marker date="1470372321266" expanded="true" signature="2942:2983" ph="SELECT * FRO... escolaridad" />
+            <marker date="1470372321266" expanded="true" signature="3436:3476" ph="SELECT * FRO... escolaridad" />
           </folding>
         </state>
       </provider>
@@ -580,14 +576,14 @@
         <state relative-caret-position="1020">
           <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
           <folding>
-            <marker date="1470371408082" expanded="true" signature="196:217" ph="SELECT * FRO... persona" />
-            <marker date="1470371408082" expanded="true" signature="660:696" ph="SELECT * FRO... persona" />
-            <marker date="1470371408082" expanded="true" signature="1095:1115" ph="SELECT * FRO... logros" />
-            <marker date="1470371408082" expanded="true" signature="1563:1599" ph="SELECT * FRO... logros" />
-            <marker date="1470371408082" expanded="true" signature="2045:2080" ph="SELECT * FRO... logros" />
-            <marker date="1470371408082" expanded="true" signature="2486:2511" ph="SELECT * FRO... escolaridad" />
-            <marker date="1470371408082" expanded="true" signature="2942:2983" ph="SELECT * FRO... escolaridad" />
-            <marker date="1470371408082" expanded="true" signature="3436:3476" ph="SELECT * FRO... escolaridad" />
+            <marker date="1470372321266" expanded="true" signature="196:217" ph="SELECT * FRO... persona" />
+            <marker date="1470372321266" expanded="true" signature="660:696" ph="SELECT * FRO... persona" />
+            <marker date="1470372321266" expanded="true" signature="1095:1115" ph="SELECT * FRO... logros" />
+            <marker date="1470372321266" expanded="true" signature="1563:1599" ph="SELECT * FRO... logros" />
+            <marker date="1470372321266" expanded="true" signature="2045:2080" ph="SELECT * FRO... logros" />
+            <marker date="1470372321266" expanded="true" signature="2486:2511" ph="SELECT * FRO... escolaridad" />
+            <marker date="1470372321266" expanded="true" signature="2942:2983" ph="SELECT * FRO... escolaridad" />
+            <marker date="1470372321266" expanded="true" signature="3436:3476" ph="SELECT * FRO... escolaridad" />
           </folding>
         </state>
       </provider>
@@ -660,14 +656,14 @@
         <state relative-caret-position="187">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <marker date="1470371408082" expanded="true" signature="196:217" ph="SELECT * FRO... persona" />
-            <marker date="1470371408082" expanded="true" signature="660:696" ph="SELECT * FRO... persona" />
-            <marker date="1470371408082" expanded="true" signature="1095:1115" ph="SELECT * FRO... logros" />
-            <marker date="1470371408082" expanded="true" signature="1563:1599" ph="SELECT * FRO... logros" />
-            <marker date="1470371408082" expanded="true" signature="2045:2080" ph="SELECT * FRO... logros" />
-            <marker date="1470371408082" expanded="true" signature="2486:2511" ph="SELECT * FRO... escolaridad" />
-            <marker date="1470371408082" expanded="true" signature="2942:2983" ph="SELECT * FRO... escolaridad" />
-            <marker date="1470371408082" expanded="true" signature="3436:3476" ph="SELECT * FRO... escolaridad" />
+            <marker date="1470372321266" expanded="true" signature="196:217" ph="SELECT * FRO... persona" />
+            <marker date="1470372321266" expanded="true" signature="660:696" ph="SELECT * FRO... persona" />
+            <marker date="1470372321266" expanded="true" signature="1095:1115" ph="SELECT * FRO... logros" />
+            <marker date="1470372321266" expanded="true" signature="1563:1599" ph="SELECT * FRO... logros" />
+            <marker date="1470372321266" expanded="true" signature="2045:2080" ph="SELECT * FRO... logros" />
+            <marker date="1470372321266" expanded="true" signature="2486:2511" ph="SELECT * FRO... escolaridad" />
+            <marker date="1470372321266" expanded="true" signature="2942:2983" ph="SELECT * FRO... escolaridad" />
+            <marker date="1470372321266" expanded="true" signature="3436:3476" ph="SELECT * FRO... escolaridad" />
           </folding>
         </state>
       </provider>
@@ -854,14 +850,14 @@
         <state relative-caret-position="-168">
           <caret line="97" column="50" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
           <folding>
-            <marker date="1470371408082" expanded="true" signature="196:217" ph="SELECT * FRO... persona" />
-            <marker date="1470371408082" expanded="true" signature="660:696" ph="SELECT * FRO... persona" />
-            <marker date="1470371408082" expanded="true" signature="1095:1115" ph="SELECT * FRO... logros" />
-            <marker date="1470371408082" expanded="true" signature="1563:1599" ph="SELECT * FRO... logros" />
-            <marker date="1470371408082" expanded="true" signature="2045:2080" ph="SELECT * FRO... logros" />
-            <marker date="1470371408082" expanded="true" signature="2486:2511" ph="SELECT * FRO... escolaridad" />
-            <marker date="1470371408082" expanded="true" signature="2942:2983" ph="SELECT * FRO... escolaridad" />
-            <marker date="1470371408082" expanded="true" signature="3436:3476" ph="SELECT * FRO... escolaridad" />
+            <marker date="1470372321266" expanded="true" signature="196:217" ph="SELECT * FRO... persona" />
+            <marker date="1470372321266" expanded="true" signature="660:696" ph="SELECT * FRO... persona" />
+            <marker date="1470372321266" expanded="true" signature="1095:1115" ph="SELECT * FRO... logros" />
+            <marker date="1470372321266" expanded="true" signature="1563:1599" ph="SELECT * FRO... logros" />
+            <marker date="1470372321266" expanded="true" signature="2045:2080" ph="SELECT * FRO... logros" />
+            <marker date="1470372321266" expanded="true" signature="2486:2511" ph="SELECT * FRO... escolaridad" />
+            <marker date="1470372321266" expanded="true" signature="2942:2983" ph="SELECT * FRO... escolaridad" />
+            <marker date="1470372321266" expanded="true" signature="3436:3476" ph="SELECT * FRO... escolaridad" />
           </folding>
         </state>
       </provider>
@@ -876,8 +872,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/editarEscolaridad.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>

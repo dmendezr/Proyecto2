@@ -22,7 +22,7 @@ var app = {
                             '<td><input type="text" name="institucionEducativa" value="' + resultado[i].InstitucionEduc +'"></td>'+
                             '<td><input type="text" name="tituloObtenido" value="' + resultado[i].TituloObtenido +'"></td>'+
                             '<td><input type="text" name="añoInicio" value="' + resultado[i].AñoInicio +'"></td>'+
-                            '<td><input type="text" name="añoCulminacion" value="' + resultado[i].AñoCulminacion +'"></td>'
+                            '<td><input type="text" name="añoCulminacion" value="' + resultado[i].AñoCulminacion +'"></td>'+'</tr>'
                     );
                     }
                 }else {
