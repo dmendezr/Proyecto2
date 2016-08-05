@@ -89,8 +89,6 @@ class Persona extends Conectar
         }
     }
 
-<<<<<<< HEAD
-=======
     public function getEscolaridades() {
         try {
             $sql = "SELECT * FROM escolaridad";
@@ -98,7 +96,6 @@ class Persona extends Conectar
             $i = 0;
             while ($queryData = mysqli_fetch_assoc($query)) {
                 $this->resultado[$i] = $queryData;
-                $i++;
             }
             return $this->resultado;
         } catch (Exception $e) {
@@ -107,7 +104,7 @@ class Persona extends Conectar
         }
     }
 
->>>>>>> origin/master
+
     public function getEscolaridadporID($id) {
         try {
             $sql = "SELECT * FROM escolaridad where cedula = ".$id ;
@@ -124,8 +121,7 @@ class Persona extends Conectar
         }
     }
 
-<<<<<<< HEAD
-=======
+
     public function getEscolaridad($id) {
         try {
             $sql = "SELECT * FROM escolaridad WHERE Cedula =" . $id;
@@ -140,6 +136,6 @@ class Persona extends Conectar
         }
     }
 
->>>>>>> origin/master
+
 
 }
