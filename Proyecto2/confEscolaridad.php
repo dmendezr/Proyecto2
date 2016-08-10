@@ -18,13 +18,7 @@ if (isset($_GET['id'])){
 	<div class="content-configuracion">
 		<form  method = "get">
 			<table id="registrosEscolaridad">
-		<tr>
-			<td><label for="institucionEducativa">Institucion Educativa</label></td>
-			<td><label for="tituloObtenido">Titulo Obtenido</label></td>
-			<td><label for="AnnoInicio">Anno de Inicio</label></td>
-			<td><label for="AnnoCulminacion">Anno de Culminacion</label></td>
-			<td><label for="Descripcion">Descripcion</label></td>
-		</tr>
+
 
 			</table>
 		</form>

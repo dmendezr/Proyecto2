@@ -16,6 +16,13 @@ var app = {
             success: function (resultado) {
                 if(resultado != ""){
                     $('#registrosEscolaridad').empty();
+                    $('#registrosEscolaridad').append('<tr>' +
+                    '<td>' + '<label for="institucionEducativa">Institucion Educativa</label>'+'</td>'+
+                    '<td>' + '<label for="tituloObtenido">Titulo Obtenido</label>'+'</td>'+
+                    '<td>' + '<label for="annoInicio">Anno de Inicio</label>'+'</td>'+
+                    '<td>' + '<label for="annoCulminacion">Anno de Culminacion</label>'+'</td>'+
+                        '<td>' + '<label for="descripcion">Descripcion</label>'+'</td>'+
+                        +'</tr>');
                     for(var i = 0; i< resultado.length; i++) {
                         $('#registrosEscolaridad').append('<tr>'+
                             '<td><input type="text" name="institucionEducativa" value="' + resultado[i].InstitucionEduc +'"id="inst'+resultado[i].ID+'"></td>'+
@@ -24,6 +31,7 @@ var app = {
                             '<td><input type="text" name="añoCulminacion" value="' + resultado[i].AñoCulminacion +'"></td>'+'</tr>'
                     );
                     }
+                    // $('#registrosEscolaridad').append ('</table>')
                 }else {
                     window.alert("Esta vacio")
                 }

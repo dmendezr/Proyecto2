@@ -72,23 +72,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="confEscolaridad.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="confEscolaridad.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/confEscolaridad.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="26" selection-end-column="13" />
+            <state relative-caret-position="332">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editarEscolaridad.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="editarEscolaridad.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/editarEscolaridad.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="23" column="126" selection-start-line="23" selection-start-column="126" selection-end-line="23" selection-end-column="126" />
+            <state relative-caret-position="187">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
+                <marker date="1470799754967" expanded="true" signature="1052:1807" ph="//..." />
               </folding>
             </state>
           </provider>
@@ -170,8 +171,8 @@
         <option value="$PROJECT_DIR$/bl/ConsultaEscolaridad.php" />
         <option value="$PROJECT_DIR$/php/obtener.php" />
         <option value="$PROJECT_DIR$/json/jsonEscolaridad.php" />
-        <option value="$PROJECT_DIR$/js/editarEscolaridad.js" />
         <option value="$PROJECT_DIR$/confEscolaridad.php" />
+        <option value="$PROJECT_DIR$/js/editarEscolaridad.js" />
       </list>
     </option>
   </component>
@@ -293,12 +294,12 @@
       <workItem from="1469989732543" duration="30855000" />
       <workItem from="1470185429913" duration="10060000" />
       <workItem from="1470365224497" duration="10976000" />
-      <workItem from="1470789992600" duration="4867000" />
+      <workItem from="1470789992600" duration="6061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61822000" />
+    <option name="totallyTimeSpent" value="63016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -798,16 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/editarEscolaridad.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="126" selection-start-line="23" selection-start-column="126" selection-end-line="23" selection-end-column="126" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/ocultarInformacion.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -820,9 +811,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/confEscolaridad.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="332">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/editarEscolaridad.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+            <marker date="1470799754967" expanded="true" signature="1052:1807" ph="//..." />
+          </folding>
         </state>
       </provider>
     </entry>
