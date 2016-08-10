@@ -122,10 +122,14 @@ nav ul ul ul {
 	text-align: center;
 }
 
+.headerContent h3{
+	text-align: justify;
+}
+
 .content-sections {
 	background-color: rgba(255,255,255,0.7);
 	padding: 0 40px;
-
+	text-align: justify;
 }
 
 .section {
@@ -1193,5 +1197,5 @@ button {
 }
 
 .wrapper{
-	margin-bottom: 50%;
+	margin-bottom: 15%;
 }

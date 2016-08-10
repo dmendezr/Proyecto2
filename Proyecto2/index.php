@@ -49,7 +49,7 @@
 	<div class="headerContent">
 		<div class="headerContentContainer">
 			<p><h1>Bienvenido</h1></p>
-			<p><h3>Este sitio le proporcionara un portafolio personal en el cual podra encontrar informacion personal, pasatiempos y una galeria de imagenes. Navegar en el menu para ir a las diferentes opciones </h3></p>
+			<p><h3>Este sitio le proporcionar&aacute; un portafolio personal en el cual podr&aacute; encontrar informaci&oacute;n b&aacute;sica, pasatiempos y una galer&iacute;a de imagenes. Navegar en el men&uacute; para ir a las diferentes opciones </h3></p>
 		</div>
 	</div>
 	<div class="content-sections">
