@@ -34,4 +34,17 @@ class Editar extends Conectar
             }
         }
     }
+
+    public function updateEscolaridad($id,$inst,$titulo,$annoIni, $annoFin,$observaciones )
+    {
+        if ($inst != '' && $titulo != '' && $annoIni != '' && $annoFin != '' && $id != '') {
+            try {
+                $sql = "UPDATE `u384523145_prpii`.`escolaridad` SET `InstitucionEduc`='".$inst."', `TituloObtenido`='".$titulo."', `AñoInicio`='".$annoIni."', `AñoCulminacion`='".$annoFin."', `Observaciones`='".$observaciones."' WHERE `ID`='".$id."'";
+                return mysqli_query(self::conectar(), $sql);
+            } catch (Exception $e) {
+                echo $e->getMessage();
+                exit;
+            }
+        }
+    }
 }

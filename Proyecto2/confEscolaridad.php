@@ -17,7 +17,7 @@ if (isset($_GET['id'])){
 	<script src="js/editarEscolaridad.js" type="application/javascript"></script>
 	<div class="content-configuracion">
 		<form  method = "get">
-			<table id="registrosEscolaridad">
+			<table class="tablaConfiguracion" id="registrosEscolaridad">
 
 
 			</table>

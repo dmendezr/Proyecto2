@@ -29,6 +29,7 @@
 					<label for="codigoPostal" class ="campo" >Codigo Postal</label>
 					<input type="text" name="codigoPostal"  value="<?php echo $datos['codigo_postal'] ?>" class ="campo" >
                     <a href="#"><img src="images/hide.png"></a>
+					<div class="clear"></div>
 				</div>
 				<div class="campoLinea">
 					<label for="sexo"  class ="campo">Sexo</label>
