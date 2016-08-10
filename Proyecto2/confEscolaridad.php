@@ -4,7 +4,8 @@ if (isset($_GET['id'])){
 	$id = $_GET['id'];
 
 }
-include "bl/consultaEscolaridad.php";
+//include "bl/consultaEscolaridad.php";
+//include "json/jsonEscolaridad.php";
 ?>
 	<script>
 
@@ -12,11 +13,11 @@ include "bl/consultaEscolaridad.php";
 			return <?php echo $id ?>
 		}
 	</script>
-	<script src="js/editarEscolaridad.js" type="application/javascript"></script>
 
+	<script src="js/editarEscolaridad.js" type="application/javascript"></script>
 	<div class="content-configuracion">
-		<form action="bl/editarInformacionBasica.php" method = "get">
-			<table>
+		<form  method = "get">
+			<table id="registrosEscolaridad">
 		<tr>
 			<td><label for="institucionEducativa">Institucion Educativa</label></td>
 			<td><label for="tituloObtenido">Titulo Obtenido</label></td>
@@ -24,16 +25,7 @@ include "bl/consultaEscolaridad.php";
 			<td><label for="AnnoCulminacion">Anno de Culminacion</label></td>
 			<td><label for="Descripcion">Descripcion</label></td>
 		</tr>
-				<div id="registros">
-					<!--			--><?php //foreach ($datos as $linea) {?>
-					<!--				<tr>-->
-					<!--					<td><input type="text" name="institucionEducativa" value="--><?php //echo $linea['InstitucionEduc'] ?><!--"></td>-->
-					<!--					<td><input type="text" name="tituloObtenido" value="--><?php //echo  $linea['TituloObtenido'] ?><!--"></td>-->
-					<!--					<td><input type="text" name="añoInicio" value="--><?php //echo $linea['AñoInicio'] ?><!--"></td>-->
-					<!--					<td><input type="text" name="añoCulminacion" value="--><?php //echo $linea['AñoCulminacion'] ?><!--"></td>-->
-					<!--				</tr>-->
-					<!--			--><?php //} ?>
-				</div>
+
 			</table>
 		</form>
 	</div>

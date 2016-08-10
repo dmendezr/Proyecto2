@@ -6,13 +6,14 @@
  * Time: 9:22 PM
  */
 
-include 'php/conectar.php';
-include 'php/obtener.php';
+include '../php/conectar.php';
+include '../php/obtener.php';
 
 if(isset($_GET['id'])) {
     $id = $_GET['id'];
 }
 
 $escolaridad = new Persona();
-$datos = $escolaridad ->getEscolaridades();
+$datos = $escolaridad ->getEscolaridadporID($id);
 echo json_encode($datos);
+

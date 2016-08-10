@@ -15,11 +15,10 @@ var app = {
             dataType:"json",
             success: function (resultado) {
                 if(resultado != ""){
-                    window.alert("Hay Informacion");
-                    $('#registros').empty();
+                    $('#registrosEscolaridad').empty();
                     for(var i = 0; i< resultado.length; i++) {
-                        $('#registros').append('<tr>'+
-                            '<td><input type="text" name="institucionEducativa" value="' + resultado[i].InstitucionEduc +'"></td>'+
+                        $('#registrosEscolaridad').append('<tr>'+
+                            '<td><input type="text" name="institucionEducativa" value="' + resultado[i].InstitucionEduc +'"id="inst'+resultado[i].ID+'"></td>'+
                             '<td><input type="text" name="tituloObtenido" value="' + resultado[i].TituloObtenido +'"></td>'+
                             '<td><input type="text" name="añoInicio" value="' + resultado[i].AñoInicio +'"></td>'+
                             '<td><input type="text" name="añoCulminacion" value="' + resultado[i].AñoCulminacion +'"></td>'+'</tr>'
@@ -30,8 +29,13 @@ var app = {
                 }
             },
             complete: function () {
-                //window.alert();
+                window.alert($("#inst1").val());
+            },
+            error: function( jqxhr, textStatus, error ) {
+                var err = textStatus + ", " + error;
+                window.alert( "Request Failed: " + err );
             }
+            
         })
     }
 }
