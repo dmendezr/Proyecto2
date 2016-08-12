@@ -61,7 +61,7 @@ var ocultarColumnaSexo = {
             }
         },
             complete:function () {
-                window.alert("Registro Actualizado")
+
             }
             ,
         error: function( jqxhr, textStatus, error ) {
