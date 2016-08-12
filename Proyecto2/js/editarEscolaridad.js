@@ -28,8 +28,8 @@ var app = {
                         $('#registrosEscolaridad').append('<tr>'+
                             '<td><input type="text" class="columnaConfig" name="institucionEducativa" value="' + resultado[i].InstitucionEduc +'"id="INST_'+resultado[i].ID+'"></td>'+
                             '<td><input type="text" class="columnaConfig" name="tituloObtenido" value="' + resultado[i].TituloObtenido +'"id="TIT_OB_'+resultado[i].ID+'"></td>'+
-                            '<td><input type="text" class="columnaConfig" name="añoInicio" value="' + resultado[i].AñoInicio +'"id="ANNO_IN_'+resultado[i].ID+'"></td>'+
-                            '<td><input type="text" class="columnaConfig" name="añoCulminacion" value="' + resultado[i].AñoCulminacion +'"id="ANNO_FN_'+resultado[i].ID+'"></td>'+
+                            '<td><input type="number" class="columnaConfig" name="añoInicio" value="' + resultado[i].AñoInicio +'"id="ANNO_IN_'+resultado[i].ID+'"></td>'+
+                            '<td><input type="number" class="columnaConfig" name="añoCulminacion" value="' + resultado[i].AñoCulminacion +'"id="ANNO_FN_'+resultado[i].ID+'"></td>'+
                             '<td><input type="text" class="columnaConfig" name="observaciones" value="' + resultado[i].Observaciones +'"id="OBS_'+resultado[i].ID+'"></td>'+
                             '<td>' +
                             '<a href="#" onclick="editarEscolaridad.init('+resultado[i].ID+')"><img src="images/editarConfiguracion1.png" id="editarConfiguracionIcon"></a>' +

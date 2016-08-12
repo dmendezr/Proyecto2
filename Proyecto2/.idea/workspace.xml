@@ -92,11 +92,11 @@
       <file leaf-file-name="editarEscolaridad.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/editarEscolaridad.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
+            <state relative-caret-position="354">
+              <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
-                <marker date="1470976063278" expanded="true" signature="2884:3057" ph="..." />
+                <marker date="1470976478711" expanded="true" signature="2888:3061" ph="..." />
               </folding>
             </state>
           </provider>
@@ -381,12 +381,12 @@
       <workItem from="1470789992600" duration="6061000" />
       <workItem from="1470860559595" duration="9738000" />
       <workItem from="1470948665853" duration="9042000" />
-      <workItem from="1470966058926" duration="8253000" />
+      <workItem from="1470966058926" duration="8668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90049000" />
+    <option name="totallyTimeSpent" value="90464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1378" height="744" extended-state="0" />
@@ -815,26 +815,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bl/ocultaCamposInformacion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/editarInformacion.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/confEscolaridad.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -848,13 +832,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/confEscolaridad.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bl/ocultaCamposInformacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/editarEscolaridad.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
+        <state relative-caret-position="354">
+          <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
-            <marker date="1470976063278" expanded="true" signature="2884:3057" ph="..." />
+            <marker date="1470976478711" expanded="true" signature="2888:3061" ph="..." />
           </folding>
         </state>
       </provider>
