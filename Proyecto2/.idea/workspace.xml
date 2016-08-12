@@ -93,8 +93,8 @@
       <file leaf-file-name="editarEscolaridad.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/editarEscolaridad.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+            <state relative-caret-position="423">
+              <caret line="74" column="14" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -366,12 +366,12 @@
       <workItem from="1470365224497" duration="10976000" />
       <workItem from="1470789992600" duration="6061000" />
       <workItem from="1470860559595" duration="9738000" />
-      <workItem from="1470948665853" duration="9042000" />
+      <workItem from="1470948665853" duration="9642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81796000" />
+    <option name="totallyTimeSpent" value="82396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1378" height="744" extended-state="0" />
@@ -877,8 +877,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/editarEscolaridad.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+        <state relative-caret-position="423">
+          <caret line="74" column="14" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>
