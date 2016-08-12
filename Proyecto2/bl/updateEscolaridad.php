@@ -6,30 +6,27 @@
  * Time: 04:44 PM
  */
 
-include 'php/conectar.php';
-include 'php/editar.php';
+include '../php/conectar.php';
+include '../php/editar.php';
 
-if(isset($_GET['id'])) {
-    $id = $_GET['id'];
+if(isset($_POST['id'])) {
+    $id = $_POST['id'];
 }
-if(isset($_GET['inst'])) {
-    $inst = $_GET['inst'];
+if(isset($_POST['inst'])) {
+    $inst = $_POST['inst'];
 }
-if(isset($_GET['titulo'])) {
-    $titulo = $_GET['titulo'];
+if(isset($_POST['titulo'])) {
+    $titulo = $_POST['titulo'];
 }
-if(isset($_GET['annoIni'])) {
-    $annoIni = $_GET['annoIni'];
+if(isset($_POST['annoIni'])) {
+    $annoIni = $_POST['annoIni'];
 }
-if(isset($_GET['annoFin'])) {
-    $annoFin = $_GET['annoFin'];
+if(isset($_POST['annoFin'])) {
+    $annoFin = $_POST['annoFin'];
 }
-if(isset($_GET['observaciones'])) {
-    $observaciones = $_GET['observaciones'];
+if(isset($_POST['observaciones'])) {
+    $observaciones = $_POST['observaciones'];
 }
-
-$editar = new Editar();
-$datos = $editar ->updateEscolaridad($id,$inst,$titulo,$annoIni,$annoFin,$observaciones) ;
 
 if ($id != "") {
     $editar = new Editar();
