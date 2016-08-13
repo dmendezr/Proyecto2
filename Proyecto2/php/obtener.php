@@ -136,6 +136,18 @@ class Persona extends Conectar
         }
     }
 
-
+    public function getDireccion($id) {
+        try {
+            $sql = "SELECT * FROM direccion WHERE Cedula =" . $id;
+            $query = mysqli_query(self::conectar(), $sql);
+            while ($queryData = mysqli_fetch_assoc($query)) {
+                $this->resultado = $queryData;
+            }
+            return $this->resultado;
+        } catch (Exception $e) {
+            echo $e->getMessage();
+            exit;
+        }
+    }
 
 }

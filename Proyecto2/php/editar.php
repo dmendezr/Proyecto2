@@ -47,4 +47,16 @@ class Editar extends Conectar
             }
         }
     }
+
+    public function  updateDireccion ($id,$pais,$provincia,$canton,$distrito,$direccionExacta){
+        if ($pais != '' && $provincia != '' && $canton!= '' && $distrito != '' && $direccionExacta != '' && $id != '') {
+            try {
+                $sql = "UPDATE `u384523145_prpii`.`direccion` SET `Pais`='".$pais."', `Provincia`='".$provincia."', `Canton`='".$canton."', `Distrito`='".$distrito."', `DireccionExacta`='".$direccionExacta."' WHERE `ID`='".$id."'";
+                return mysqli_query(self::conectar(), $sql);
+            } catch (Exception $e) {
+                echo $e->getMessage();
+                exit;
+            }
+        }
+    }
 }
