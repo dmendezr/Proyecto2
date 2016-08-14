@@ -10,6 +10,8 @@
 	text-align: justify;
 }
 
+
+
 body {
 	background-image: url("../images/Fondo2.png");
 }
@@ -22,6 +24,53 @@ body {
 	width: 200px;
 	height: 75px;
 	margin-top: 10px;
+}
+
+/*
+*********************************************************************************************
+**********************************************LOGIN********************************************
+*********************************************************************************************
+*/
+
+.wrapper_login{
+	width: 350px;
+	margin: 0 auto;
+
+}
+
+.login{
+	width: 300px;
+	height: 320px;
+	background-color: rgba(255,255,255,0.7);
+	border-top-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+	border: solid #8904B1 1px;
+	margin-top: 130px;
+
+}
+
+
+.formulario img{
+	width: 100px;
+	height: 100px;
+	margin-left: 100px;
+}
+.formulario{
+	padding-top: 60px;
+}
+
+.formulario div{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.login button{
+	margin-top: 10px;
+	margin-left: 60px;
+}
+
+.datos-incorrectos{
+	color: red;
 }
 
 /*

@@ -134,7 +134,7 @@
 		<div class="seccion_configuracion">
 			<img src="images/config_icon.png" class = "imagenConfig">
 			<p>Si usted es propietario de esta pagina y desea acceder a su sitio de configuracion haga click <a
-					href="confInformacionBasica.php?id=1">Aqui</a></p>
+					href="login.php">Aqui</a></p>
 
 		</div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
