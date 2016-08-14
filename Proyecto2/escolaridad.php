@@ -18,7 +18,7 @@
 			</div>		
 		</div>
 		<div class="informacion">
-			<div class="header-seccion">
+			<div class="header-seccion">d
 				<img src="images/iconoEscolaridad.png">
 				<h2> Escolaridad </h2>
 				<div class="clear"></div>	

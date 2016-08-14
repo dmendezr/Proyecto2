@@ -28,14 +28,9 @@ if(isset($_POST['direccionExacta'])) {
     $direccionExacta = $_POST['direccionExacta'];
 }
 
-if ($id != "") {
-    $editar = new Editar();
-    $datos = $editar -> updateDireccion($id,$pais,$provincia,$canton,$distrito,$direccionExacta) ;
-    if($editar ->$editar -> updateDireccion($id,$pais,$provincia,$canton,$distrito,$direccionExacta)){
-        echo true;
-    } else {
-        echo false;
-    }
-} else {
-    echo false;
+$persona = new Editar();
+if($persona -> updateDireccion($id,$pais,$provincia,$canton,$distrito,$direccionExacta)){
+    header("Location: ../confDireccion.php?id=".$id);
+}else{
+    header("Location: ../confDireccion.php?error=true");
 }

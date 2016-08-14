@@ -13,5 +13,5 @@ if(isset($_GET['id'])) {
 }
 
 $escolaridad = new Persona();
-$datos = $escolaridad ->getEscolaridadporID($id);
+$datos = $direccion ->getDireccion($id);
 echo json_encode($datos);

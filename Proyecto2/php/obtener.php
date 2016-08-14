@@ -136,6 +136,7 @@ class Persona extends Conectar
         }
     }
 
+
     public function getDireccion($id) {
         try {
             $sql = "SELECT * FROM direccion WHERE Cedula =" . $id;
@@ -149,5 +150,7 @@ class Persona extends Conectar
             exit;
         }
     }
+
+
 
 }
