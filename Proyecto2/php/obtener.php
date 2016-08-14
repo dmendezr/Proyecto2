@@ -151,6 +151,23 @@ class Persona extends Conectar
         }
     }
 
+    public function getGaleriaPorID($id) {
+        try {
+            $sql = "SELECT * FROM u384523145_prpii.galeria WHERE cedula=".$id ;
+            $query = mysqli_query(self::conectar(), $sql);
+            $i = 0;
+            while ($queryData = mysqli_fetch_assoc($query)) {
+                $this->resultado[$i] = $queryData;
+                $i++;
+            }
+            return $this->resultado;
+        } catch (Exception $e) {
+            echo $e->getMessage();
+            exit;
+        }
+    }
+
+
 
 
 }

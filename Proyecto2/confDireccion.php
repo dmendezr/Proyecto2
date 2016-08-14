@@ -28,7 +28,7 @@ include "bl/consultaDireccion.php";
                     <div class="clear"></div>
                 </div>
                 <div class="campoLinea">
-                    <label for="distrito" class="lblDistrito">Canton</label>
+                    <label for="distrito" class="lblDistrito">Distrito</label>
                     <input type="text" name="distrito" value="<?php echo $datos['Distrito'] ?>" class="inputDistrito">
                     <div class="clear"></div>
                 </div>

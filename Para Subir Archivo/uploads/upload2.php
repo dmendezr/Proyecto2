@@ -9,7 +9,7 @@ body{font-size:1.2em;}
 </style>
 </head>
 <body>
-<form enctype='multipart/form-data' action='' method='post'>
+<form enctype="multipart/form-data" action="" method="post">
 <input name='uploadedfile' type='file'><br>
 <input type='submit' value='Subir archivo'>
 </form>

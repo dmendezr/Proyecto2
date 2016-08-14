@@ -24,7 +24,7 @@
                         <li><a href="#">Logros</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Galeria</a></li>
+                <li><a href="confGaleria.php?id=1">Galeria</a></li>
                 <li><a href="#">Sobre Nosotros</a></li>
             </ul>
         </nav>

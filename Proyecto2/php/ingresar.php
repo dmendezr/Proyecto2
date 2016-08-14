@@ -20,4 +20,17 @@ class Ingresar extends Conectar
             }
         }
     }
+
+    public function insertGaleria($ruta, $cedula)
+    {
+        if ($ruta != '' && $cedula != '') {
+            try {
+                $sql = "INSERT INTO `u384523145_prpii`.`galeria` (`ruta`, `cedula`) VALUES ('".$ruta."', '".$cedula."')";
+                return mysqli_query(self::conectar(), $sql);
+            } catch (Exception $e) {
+                echo $e->getMessage();
+                exit;
+            }
+        }
+    }
 }
