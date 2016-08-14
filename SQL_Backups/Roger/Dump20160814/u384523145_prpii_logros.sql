@@ -16,30 +16,31 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `galeria`
+-- Table structure for table `logros`
 --
 
-DROP TABLE IF EXISTS `galeria`;
+DROP TABLE IF EXISTS `logros`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `galeria` (
-  `idgaleria` int(11) NOT NULL,
-  `ruta` varchar(45) DEFAULT 'images/foto_defecto.jpg',
-  `descripcion` varchar(300) DEFAULT NULL,
+CREATE TABLE `logros` (
+  `id_logro` int(11) NOT NULL,
+  `logro` varchar(50) NOT NULL,
+  `descripcion` varchar(500) NOT NULL,
   `cedula` int(11) DEFAULT NULL,
-  PRIMARY KEY (`idgaleria`),
-  KEY `galeria_persona_idx` (`cedula`),
-  CONSTRAINT `galeria_persona` FOREIGN KEY (`cedula`) REFERENCES `persona` (`Cedula`) ON DELETE NO ACTION ON UPDATE NO ACTION
+  PRIMARY KEY (`id_logro`),
+  KEY `cedula_idx` (`cedula`),
+  CONSTRAINT `cedula` FOREIGN KEY (`cedula`) REFERENCES `persona` (`Cedula`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `galeria`
+-- Dumping data for table `logros`
 --
 
-LOCK TABLES `galeria` WRITE;
-/*!40000 ALTER TABLE `galeria` DISABLE KEYS */;
-/*!40000 ALTER TABLE `galeria` ENABLE KEYS */;
+LOCK TABLES `logros` WRITE;
+/*!40000 ALTER TABLE `logros` DISABLE KEYS */;
+INSERT INTO `logros` VALUES (11,'Doctorado','Laboral',1),(12,'Googolopolis','programacion 1',1),(13,'BD Ret a car','programacion 2',1),(14,'Portafolio','programacion 3',1);
+/*!40000 ALTER TABLE `logros` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -51,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-08-02 19:08:03
+-- Dump completed on 2016-08-14 16:51:36

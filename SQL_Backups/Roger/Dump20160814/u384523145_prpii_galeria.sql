@@ -16,32 +16,30 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `pasatiempos`
+-- Table structure for table `galeria`
 --
 
-DROP TABLE IF EXISTS `pasatiempos`;
+DROP TABLE IF EXISTS `galeria`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `pasatiempos` (
-  `id_pasatiempo` int(11) NOT NULL,
-  `nombre` varchar(45) DEFAULT NULL,
-  `foto` varchar(45) DEFAULT '"images/default_pasatiempo.jpg"',
-  `descripcion` varchar(3000) DEFAULT NULL,
+CREATE TABLE `galeria` (
+  `idgaleria` int(11) NOT NULL AUTO_INCREMENT,
+  `ruta` varchar(300) DEFAULT 'images/foto_defecto.jpg',
   `cedula` int(11) DEFAULT NULL,
-  `pasatiemposcol` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`id_pasatiempo`),
-  KEY `pasatiempo_persona_idx` (`cedula`),
-  CONSTRAINT `pasatiempo_persona` FOREIGN KEY (`cedula`) REFERENCES `persona` (`Cedula`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+  PRIMARY KEY (`idgaleria`),
+  KEY `galeria_persona_idx` (`cedula`),
+  CONSTRAINT `galeria_persona` FOREIGN KEY (`cedula`) REFERENCES `persona` (`Cedula`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `pasatiempos`
+-- Dumping data for table `galeria`
 --
 
-LOCK TABLES `pasatiempos` WRITE;
-/*!40000 ALTER TABLE `pasatiempos` DISABLE KEYS */;
-/*!40000 ALTER TABLE `pasatiempos` ENABLE KEYS */;
+LOCK TABLES `galeria` WRITE;
+/*!40000 ALTER TABLE `galeria` DISABLE KEYS */;
+INSERT INTO `galeria` VALUES (2,'pictures/2.jpg',1),(3,'pictures/3.jpg',1),(7,'pictures/1395884_646937822005139_1636923553_n.jpg',1),(12,'pictures/punisher.jpg',1);
+/*!40000 ALTER TABLE `galeria` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -53,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-08-02 19:08:03
+-- Dump completed on 2016-08-14 16:51:36

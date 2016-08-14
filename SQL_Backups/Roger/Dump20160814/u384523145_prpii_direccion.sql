@@ -16,33 +16,34 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `persona`
+-- Table structure for table `direccion`
 --
 
-DROP TABLE IF EXISTS `persona`;
+DROP TABLE IF EXISTS `direccion`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `persona` (
+CREATE TABLE `direccion` (
+  `ID` int(11) NOT NULL,
   `Cedula` int(11) NOT NULL,
-  `codigo_postal` int(11) DEFAULT NULL,
-  `Nombre` varchar(45) NOT NULL,
-  `Apellido1` varchar(45) DEFAULT NULL,
-  `Apellido2` varchar(45) DEFAULT NULL,
-  `Sexo` varchar(45) DEFAULT NULL,
-  `FechaNacimiento` date DEFAULT NULL,
-  `Edad` int(11) DEFAULT NULL,
-  PRIMARY KEY (`Cedula`)
+  `Pais` varchar(45) DEFAULT NULL,
+  `Provincia` varchar(45) DEFAULT NULL,
+  `Canton` varchar(45) DEFAULT NULL,
+  `Distrito` varchar(45) DEFAULT NULL,
+  `DireccionExacta` varchar(45) NOT NULL,
+  PRIMARY KEY (`ID`),
+  KEY `cedula_idx` (`Cedula`),
+  CONSTRAINT `direccion-persona` FOREIGN KEY (`Cedula`) REFERENCES `persona` (`Cedula`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `persona`
+-- Dumping data for table `direccion`
 --
 
-LOCK TABLES `persona` WRITE;
-/*!40000 ALTER TABLE `persona` DISABLE KEYS */;
-INSERT INTO `persona` VALUES (1,1234,'Diego','Mendez','Rodriguez','M','2016-10-11',20),(2,1234,'Karen','Fonseca','Mendez','F','0000-00-00',21),(3,3214,'Maria','Carmona','Perez','F','1995-12-01',26);
-/*!40000 ALTER TABLE `persona` ENABLE KEYS */;
+LOCK TABLES `direccion` WRITE;
+/*!40000 ALTER TABLE `direccion` DISABLE KEYS */;
+INSERT INTO `direccion` VALUES (1,1,'CR','San Joses','Vazquez','Jesus','Direccion');
+/*!40000 ALTER TABLE `direccion` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -54,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-08-02 19:08:03
+-- Dump completed on 2016-08-14 16:51:36

@@ -17,7 +17,7 @@ var app = {
                         $('#imagenes').append(
                             '<div class="imagen">'+
                             '<img src="'+resultado[i].ruta+'">'+
-                            '<a href="#" onclick="">Eliminar</a> '+
+                            '<a href="#" onclick="borrarImagen.init('+resultado[i].idgaleria+')">Eliminar</a> '+
                             '</div>'
                         );
                     }
@@ -37,34 +37,31 @@ var app = {
     }
 }
 
-var subirImagen = {
-    init: function () {
-        $("#nuevaImagen").append('<form enctype="multipart/form-data" method="">'+
-            '<input name="uploadedfile" type="file"><br>'+
-            '<input type="submit" value="Subir archivo">'+
-            '</form>');
-
+var borrarImagen = {
+    init: function (id) {
+        var respuesta = confirm("Desea eliminar el Registro?")
+        if (respuesta){
+            this.borrar(id)
+        }
     },
-    subeImagen:function () {
+    borrar:function (id) {
 
         $.ajax({
-            url: "./json/jsonGaleria.php?id="+enviaID(),
-            type:"GET",
-            dataType:"json",
+            url: "./bl/deleteGaleria.php",
+            type:"POST",
+            data:{'id':id},
             success: function (resultado) {
-
+                window.alert("Registro Eliminado")
             },
             complete: function () {
-
+                app.init()
             },
             error: function( jqxhr, textStatus, error ) {
                 var err = textStatus + ", " + error;
                 window.alert( "Request Failed: " + err );
             }
-
         })
     }
-
 }
 
 $(document).ready(function () {

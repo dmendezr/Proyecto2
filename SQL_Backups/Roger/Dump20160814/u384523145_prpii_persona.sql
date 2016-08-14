@@ -16,33 +16,35 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `escolaridad`
+-- Table structure for table `persona`
 --
 
-DROP TABLE IF EXISTS `escolaridad`;
+DROP TABLE IF EXISTS `persona`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `escolaridad` (
-  `ID` int(11) NOT NULL,
-  `InstitucionEduc` varchar(45) DEFAULT NULL,
-  `TituloObtenido` varchar(45) NOT NULL,
-  `AñoInicio` varchar(45) DEFAULT NULL,
-  `AñoCulminacion` varchar(45) DEFAULT NULL,
-  `Observaciones` varchar(45) DEFAULT NULL,
+CREATE TABLE `persona` (
   `Cedula` int(11) NOT NULL,
-  PRIMARY KEY (`ID`),
-  KEY `escolaridad-persona_idx` (`Cedula`),
-  CONSTRAINT `escolaridad-persona` FOREIGN KEY (`Cedula`) REFERENCES `persona` (`Cedula`) ON DELETE NO ACTION ON UPDATE NO ACTION
+  `codigo_postal` int(11) DEFAULT NULL,
+  `Nombre` varchar(45) NOT NULL,
+  `Apellido1` varchar(45) DEFAULT NULL,
+  `Apellido2` varchar(45) DEFAULT NULL,
+  `Sexo` varchar(45) DEFAULT NULL,
+  `FechaNacimiento` date DEFAULT NULL,
+  `Edad` int(11) DEFAULT NULL,
+  `usuario` varchar(45) NOT NULL,
+  `pass` varchar(45) NOT NULL,
+  PRIMARY KEY (`Cedula`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `escolaridad`
+-- Dumping data for table `persona`
 --
 
-LOCK TABLES `escolaridad` WRITE;
-/*!40000 ALTER TABLE `escolaridad` DISABLE KEYS */;
-/*!40000 ALTER TABLE `escolaridad` ENABLE KEYS */;
+LOCK TABLES `persona` WRITE;
+/*!40000 ALTER TABLE `persona` DISABLE KEYS */;
+INSERT INTO `persona` VALUES (1,1234,'Diego','Mendez','Rodriguez','M','2016-10-11',20,'dmendezr','1234'),(2,1234,'Karen','Fonseca','Mendez','F','0000-00-00',21,'',''),(3,3214,'Maria','Carmona','Perez','F','1995-12-01',26,'','');
+/*!40000 ALTER TABLE `persona` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -54,4 +56,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-08-02 19:08:03
+-- Dump completed on 2016-08-14 16:51:36
