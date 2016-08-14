@@ -7,6 +7,7 @@
 .wrapper{
 	width: 960px;
 	margin: 0 auto;
+	text-align: justify;
 }
 
 body {
@@ -1222,3 +1223,105 @@ button {
 }
 
 */
+
+/*
+ @media (min-width: 480px){
+ 	#wrapper{
+	 	width: 100%;
+	}
+	header{
+		height: 186px;
+		width: 100%;
+	}
+
+	nav{
+		width: 100%;
+	}
+
+	.da-slider{
+		width: 100%;
+	}
+
+	.da-arrows{
+		width: auto;
+	}
+
+	.headerContent{
+		width: auto;
+	}
+
+	.content-sections{
+		width: auto;
+	}
+
+	.section{
+		width: auto;
+		height: 100%;
+		margin-left: 70px;
+	}
+
+	.second-section{
+		width: auto;
+	}
+
+	.seccion_configuracion{
+		width: auto;
+	}
+
+	footer{
+		width: auto;
+	}
+ }
+
+ @media (min-width: 290px){
+ 	#wrapper{
+	 	width: 100%;
+	}
+	header{
+		height: auto;
+		width: auto;
+	}
+
+	nav{
+		width: auto;
+		height: auto;
+		margin: 5px;
+	}
+
+	.da-slider{
+		width: 100%;
+	}
+
+	.da-arrows{
+		width: auto;
+	}
+
+	.headerContent{
+		width: auto;
+	}
+
+	.content-sections{
+		width: auto;
+		height: auto;
+	}
+
+	.section{
+		width: auto;
+		height: auto;
+	}
+
+	.second-section{
+		width: auto;
+		height: auto;
+	}
+
+	.seccion_configuracion{
+		width: auto;
+		height: auto;
+	}
+
+	footer{
+		width: auto;
+		height: auto;
+	}
+ }*/
