@@ -35,7 +35,7 @@ include 'bl/consultaGaleria.php';
                         <div class="gallery">
                             <ul class="items">
                                 <?php foreach ($datos as $linea){ ?>
-                                    <li><a href="#"><img src="<?php echo $linea['ruta']?>" class="big_image" alt=""><span></span></a></li>
+                                    <li><a href="#"><img src="<?php echo $linea['ruta']?>" alt=""><span></span></a></li>
                                 <?php } ?>
                             </ul>
                         </div>
