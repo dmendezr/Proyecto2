@@ -1,5 +1,6 @@
 		<?php include 'header.php'; ?>
 		<?php include 'bl/ConsultaInformacion.php'; ?>
+		<?php include 'bl/consultaDireccion.php'; ?>
 		<div class="slide">
 			<img src="images/slider-informacion.jpg">
 			<h2> Información Básica </h2>
@@ -75,34 +76,52 @@
 				<div class="clear"></div>	
 			</div>
 			<div class="seccion">
-					<h2 class="encabezado-informacion" id="lblPais"> Pais</h2>	
+					<h2 class="encabezado-informacion" id="lblPais"> Pais: </h2>
 					<p class="contenido-informacion" id="txtPais">
+						<?php
+							echo $datos1['Pais'];
+						?>
 					</p>
 					<div class="clear"></div>
 			</div>
 			<div class="seccion">
 					<h2 class="encabezado-informacion" id="lblProvincia"> Provincia: </h2>	
-					<p class="contenido-informacion" id="txtProvincia">San Jose</p>
+					<p class="contenido-informacion" id="txtProvincia">
+						<?php
+						echo $datos1['Provincia'];
+						?>
+					</p>
+
 					<div class="clear"></div>
 			</div>
 			<div class="seccion">
-					<h2 class="encabezado-informacion" id="lblCanton"> Canton:</h2>	
-					<p class="contenido-informacion" id="txtCanton">Vazquez de Coronado</p>
+					<h2 class="encabezado-informacion" id="lblCanton"> Canton: </h2>
+					<p class="contenido-informacion" id="txtCanton">
+						<?php
+						echo $datos1['Canton'];
+						?>
+					</p>
+
+
 					<div class="clear"></div>
 			</div>
 			<div class="seccion">
-					<h2 class="encabezado-informacion" id="lblDistrito"> Distrito</h2>	
-					<p class="contenido-informacion" id="txtDistrito">Jesus</p>
+					<h2 class="encabezado-informacion" id="lblDistrito"> Distrito: </h2>
+					<p class="contenido-informacion" id="txtDistrito">
+						<?php
+						echo $datos1['Distrito'];
+						?>
+					</p>
+
 					<div class="clear"></div>
 			</div>
 			<div class="seccion">
 					<h2 class="encabezado-informacion" id="lblDE"> Direccion Exacta: </h2>	
-					<p class="contenido-informacion" id="txtDE">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p class="contenido-informacion" id="txtDE">
+						<?php
+						echo $datos1['DireccionExacta'];
+						?>
+					</p>
 					<div class="clear"></div>
 			</div>
 		</div>

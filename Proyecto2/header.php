@@ -24,21 +24,27 @@
 	<script src="js/tms-0.4.1.js"></script>
 </head>
 <body>
+<?php
+	if (isset($_GET['id'])){
+		$id = $_GET['id'];
+
+	}
+?>
 	<div class="wrapper">
 		<header>
 			<div class="logo">
-				<a href="#"><img src="images/logo.png"></a>
+				<a href="../index.php"><img src="images/logo.png"></a>
 		<nav>
         	<ul id="menu">
-          		<li><a href="index.php?">Inicio</a></li>
-          		<li><a href="information.php?id=1">Informacion</a>
+          		<li><a href="index.php?id=<?php echo $id?>">Inicio</a></li>
+          		<li><a href="information.php?id=<?php echo $id?>">Informacion</a>
             		<ul>
-              			<li><a href="pasatiempos.php?id=1">Pasatiempos</a></li>
-              			<li><a href="escolaridad.php?id=1">Escolaridad</a></li>
-              			<li><a href="logros.php?id=1">Logros</a></li>
+              			<li><a href="pasatiempos.php?id=<?php echo $id?>">Pasatiempos</a></li>
+              			<li><a href="escolaridad.php?id=<?php echo $id?>">Escolaridad</a></li>
+              			<li><a href="logros.php?id=<?php echo $id?>">Logros</a></li>
             		</ul>  
           		</li>
-          		<li><a href="Galeria.php?id=1">Galeria</a></li>
+          		<li><a href="Galeria.php?id=<?php echo $id?>">Galeria</a></li>
         	</ul>
       </nav>
 		</header>

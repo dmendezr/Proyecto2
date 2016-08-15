@@ -10,6 +10,11 @@
 	text-align: justify;
 }
 
+.wrapper_index{
+	width: 960px;
+	margin: 0 auto;
+	text-align: justify;
+}
 
 
 body {
@@ -1314,6 +1319,25 @@ button {
 	display: block;
 }
 
+/*
+**********************************************************************************************
+*****************************************Index-Proyecto****************************
+**********************************************************************************************
+*/
+
+.Persona{
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 330px;
+	font-family: "Media";
+	font-size: 25px;
+	border:1px #0078ff solid;
+	border-radius: 5px;
+	background-color: turquoise;
+	display: block;
+}
+
+
 
 
 /*
@@ -1444,3 +1468,9 @@ button {
 		height: auto;
 	}
  }*/
+
+
+
+
+
+
