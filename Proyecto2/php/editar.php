@@ -74,4 +74,17 @@ class Editar extends Conectar
         }
     }
 
+    public function updatePasatiempos($id,$nombre,$descripcion)
+    {
+        if ($id != '' && $nombre != '' && $descripcion != '') {
+            try {
+                $sql = "UPDATE `u384523145_prpii`.`pasatiempos` SET `nombre`='".$nombre."', `descripcion`='".$descripcion."' WHERE `id_pasatiempo`='".$id."'";
+                return mysqli_query(self::conectar(), $sql);
+            } catch (Exception $e) {
+                return $e->getMessage();
+                exit;
+            }
+        }
+    }
+
 }

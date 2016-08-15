@@ -48,4 +48,19 @@ class Eliminar extends Conectar
         }
     }
 
+    public function deletePasatiempos($id)
+    {
+        if ($id != '') {
+            try {
+                $sql = "DELETE FROM `u384523145_prpii`.`pasatiempos` WHERE `id_pasatiempo`='".$id."'";
+                return mysqli_query(self::conectar(), $sql);
+            } catch (Exception $e) {
+                echo $e->getMessage();
+                exit;
+            }
+        }
+    }
+
+
+
 }
