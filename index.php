@@ -8,6 +8,16 @@
 include "header.php"; ?>
 
 <div class="wrapper_index">
+
+    <div class="Programacion">
+        <h1>Proyecto de Programacion III</h1>
+
+    </div>
+
+    <div class="Portafolio">
+        <h1>Portafolio</h1>
+
+    </div>
     <div class="Persona">
         <p>Diego Mendez</p>
         <a href="Proyecto2/index.php?id=1">Ingresar</a>

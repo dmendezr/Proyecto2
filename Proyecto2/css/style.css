@@ -1327,7 +1327,7 @@ button {
 
 .Persona{
 	width: 300px;
-	margin-top: 20px;
+	margin-top: 40px;
 	margin-left: 330px;
 	font-family: "Media";
 	font-size: 25px;
@@ -1337,6 +1337,14 @@ button {
 	display: block;
 }
 
+.Programacion{
+	margin-left: 270px;
+
+}
+.Portafolio{
+	margin-top: 20px;
+	margin-left: 410px;
+}
 
 
 
