@@ -35,19 +35,11 @@ class Eliminar extends Conectar
         }
     }
 
-<<<<<<< HEAD
-    public function deletePasatiempo($id)
-    {
-        if ($id != '') {
-            try {
-                $sql = "DELETE FROM `u384523145_prpii`.`pasatiempos` WHERE `id_pasatiempo`='".$id."'";
-=======
     public function deleteLogros($id)
     {
         if ($id != '') {
             try {
                 $sql = "DELETE FROM `u384523145_prpii`.`logros` WHERE `id_logro`='".$id."'";
->>>>>>> origin/master
                 return mysqli_query(self::conectar(), $sql);
             } catch (Exception $e) {
                 echo $e->getMessage();
