@@ -59,4 +59,19 @@ class Editar extends Conectar
             }
         }
     }
+
+
+    public function updateLogros($id_logro,$logro,$descripcion)
+    {
+        if ($id_logro != '' && $logro != '' && $descripcion != '') {
+            try {
+                $sql = "UPDATE `u384523145_prpii`.`logros` SET `logro`='".$logro."', `descripcion`='".$descripcion."' WHERE `id_logro`='".$id_logro."'";
+                return mysqli_query(self::conectar(), $sql);
+            } catch (Exception $e) {
+                return $e->getMessage();
+                exit;
+            }
+        }
+    }
+
 }

@@ -33,4 +33,19 @@ class Ingresar extends Conectar
             }
         }
     }
+
+    public function insertLogros($logro,$descripcion,$cedula )
+    {
+        if ($logro != '' && $descripcion != '' && $cedula != '') {
+            try {
+                $sql = "INSERT INTO `u384523145_prpii`.`logros` (`logro`, `descripcion`,`cedula`) VALUES ('".$logro."', '".$descripcion."', '".$cedula."')";
+                return mysqli_query(self::conectar(), $sql);
+            } catch (Exception $e) {
+                echo $e->getMessage();
+                exit;
+            }
+        }
+    }
+
+
 }

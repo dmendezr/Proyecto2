@@ -35,4 +35,17 @@ class Eliminar extends Conectar
         }
     }
 
+    public function deleteLogros($id)
+    {
+        if ($id != '') {
+            try {
+                $sql = "DELETE FROM `u384523145_prpii`.`logros` WHERE `id_logro`='".$id."'";
+                return mysqli_query(self::conectar(), $sql);
+            } catch (Exception $e) {
+                echo $e->getMessage();
+                exit;
+            }
+        }
+    }
+
 }
