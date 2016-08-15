@@ -18,8 +18,12 @@ if (isset($_GET['id'])){
 
 		</div>
 		<div id="nuevoPasatiempo">
-			<form enctype="multipart/form-data" action="bl/ingresaImagenGaleria.php?id=<?php echo $id ?>" method="post">
-				<!--            <input type="hidden" name="id" value="--><?php //echo $id ?><!--">-->
+			<form enctype="multipart/form-data" action="bl/ingresaPasatiempo.php" method="post">
+				<input type="hidden" name="id" value="<?php echo $id ?>">
+				<label for="nombre">Nombre</label>
+				<input type="text" name="nombre">
+				<label for="descripcion">Descripcion</label>
+				<input type="text" name="descripcion">
 				<input name='uploadedfile' type='file'><br>
 				<input type='submit' value='Subir archivo'>
 			</form>

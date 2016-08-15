@@ -1,4 +1,17 @@
-		<?php include 'header.php'; ?>
+		<?php include 'header.php';
+		if (isset($_GET['id'])){
+			$id = $_GET['id'];
+
+		}
+		?>
+		<script>
+
+			function enviaID() {
+				return <?php echo $id ?>
+			}
+		</script>
+		<script src="js/obtienePasatiempo.js" type="application/javascript"></script>
+		<script type="text/javascript" src="js/efecto3.js"></script>
 		<div class="slide">
 			<img src="images/slider-pasatiempos.jpg">
 			<h2> Pasatiempos</h2>
@@ -11,12 +24,7 @@
 			</div>		
 		</div>
 		<div class="pasatiempos-contenido">
-			<img src="images/pasatiempo1.jpg" class="rotate3D">
-			<img src="images/pasatiempo3.jpg" class="rotate3D">
-			<img src="images/pasatiempo4.jpg" class="rotate3D">
-			<img src="images/pasatiempo1.jpg" class="rotate3D">
-			<img src="images/pasatiempo3.jpg" class="rotate3D">
-			<img src="images/pasatiempo4.jpg" class="rotate3D">
+
 		</div>
 		</div>
 		<div id="fade" class="overlay"></div>

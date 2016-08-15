@@ -1268,6 +1268,21 @@ button {
 	margin-left: 20px;
 }
 
+.short_image{
+	 width: 144px;
+	height: 95px;
+}
+
+.big_image{
+	width: 910px;
+	height: 481px;
+}
+
+.items li a img{
+	width: 910px;
+	height: 481px;
+}
+
 /*
 
 **********************************************************************************************

@@ -47,5 +47,18 @@ class Ingresar extends Conectar
         }
     }
 
+    public function insertPasatiempos($nombre,$ruta,$descripcion,$cedula )
+    {
+        if ($nombre != '' && $descripcion != '' && $ruta != '' && $cedula != '') {
+            try {
+                $sql = "INSERT INTO `u384523145_prpii`.`pasatiempos` (`nombre`, `foto`, `descripcion`, `cedula`) VALUES ('".$nombre."', '".$ruta."', '".$descripcion."', '".$cedula."')";
+                return mysqli_query(self::conectar(), $sql);
+            } catch (Exception $e) {
+                echo $e->getMessage();
+                exit;
+            }
+        }
+    }
+
 
 }
