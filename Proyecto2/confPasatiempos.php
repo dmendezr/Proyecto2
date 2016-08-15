@@ -1,90 +1,30 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Configuracion 2</title>
-	<link rel="stylesheet" type="text/css" href="css/style2.css">
+<?php
+include "headerConfig.php";
+if (isset($_GET['id'])){
+	$id = $_GET['id'];
 
-</head>
-<body>
-	<div id="wrapper">
+}
+?>
+	<script>
 
-		<div id="header">
-			<div id="logo">
-				<img src="images/logo.png">
-			</div>
-			<h1>Navegador</h1>
-		</div>
+		function enviaID() {
+			return <?php echo $id ?>
+		}
+	</script>
 
-		<div id="body">
-			<div id="body-info">
-				<h3>Informacion Personal</h3>
-				<select>
-					<option>Informacion Basica</option>
-					<option>Escolaridad</option>
-					<option>Domicilio</option>
-					<option>Parentesco</option>
-					<option>Contactos</option>
-				</select>
-			</div>
-			
-			<div id="body-text">
-				<textarea>Escriba Aqui</textarea>
-				
-			</div>
-			<div id="body-text">
-				<textarea>Escriba Aqui</textarea>
-				
-			</div>
-			<div id="body-text">
-				<textarea>Escriba Aqui</textarea>
-				
-			</div>
-			<div id="body-text">
-				<textarea>Escriba Aqui</textarea>
-				
-			</div>
-			<div id="body-text">
-				<textarea>Escriba Aqui</textarea>
-			</div>
-			<div id="boton">
-				<button>Guardar</button>
-			</div>
-
-
-			<div id="tables">
-				<table border="1">
-					<tr>
-						<td>Instituci&oacute;n Educativa</td>
-						<td>Titulo Obteido</td>
-						<td>A&ntilde;o Inicio</td>
-						<td>A&ntilde;o Culinaci&oacute;n</td>
-						<td>Otras Observaciones </td>
-					</tr>
-					<tr>
-						<td>x</td>
-						<td>x</td>
-						<td>x</td>
-						<td>x</td>
-						<td>x</td>
-					</tr>
-					<tr>
-						<td>x</td>
-						<td>x</td>
-						<td>x</td>
-						<td>x</td>
-						<td>x</td>
-					</tr>
-				</table>
-
-			</div>
+	<script src="js/editarPasatiempos.js" type="application/javascript"></script>
+	<div class="content-configuracion">
+		<div id="pasatiempos">
 
 		</div>
-
-		<footer>
-			Universidad Internacional de la Americas
-		</footer>
-
+		<div id="nuevoPasatiempo">
+			<form enctype="multipart/form-data" action="bl/ingresaImagenGaleria.php?id=<?php echo $id ?>" method="post">
+				<!--            <input type="hidden" name="id" value="--><?php //echo $id ?><!--">-->
+				<input name='uploadedfile' type='file'><br>
+				<input type='submit' value='Subir archivo'>
+			</form>
+		</div>
 	</div>
-</body>
-
-</html>
+<?php
+include "footer.php";
+?>
