@@ -130,7 +130,6 @@ var eliminaRegistroLogros = {
             type: "POST",
             data: {'id':id},
             success: function(resultado) {
-                window.alert(resultado)
                 if (resultado == 1) {
                     window.alert("Registro Eliminado")
                 }
