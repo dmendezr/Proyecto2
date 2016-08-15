@@ -20,7 +20,6 @@
                         <li><a href="confDireccion.php?id=<?php echo $_SESSION['Cedula']?>">Direccion</a></li>
                         <li><a href="confEscolaridad.php?id=<?php echo $_SESSION['Cedula']?>">Escolaridad</a></li>
                         <li><a href="confPasatiempos.php?id=<?php echo $_SESSION['Cedula']?>">Pasatiempos</a></li>
-                        <li><a href="#">Logros</a></li>
                         <li><a href="confLogros.php?id=<?php echo $_SESSION['Cedula']?>">Logros</a></li>
                     </ul>
                 </li>
