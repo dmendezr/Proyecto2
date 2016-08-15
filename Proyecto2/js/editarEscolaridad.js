@@ -42,7 +42,8 @@ var app = {
                     $('#registrosEscolaridad').append('<tr id="filaNuevoIngreso">' + '</tr>')
                     $('#registrosEscolaridad').append('<a href="#" onclick="ingresaFilaNueva.init()">'+'Nuevo'+'</a>')
                 }else {
-                    window.alert("Esta vacio")
+                    $('#registrosEscolaridad').append('<tr id="filaNuevoIngreso">' + '</tr>')
+                    ingresaFilaNueva.init();
                 }
             },
             complete: function () {

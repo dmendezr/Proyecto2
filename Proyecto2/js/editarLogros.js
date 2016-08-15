@@ -35,7 +35,8 @@ var app = {
                     $('#registrosLogros').append('<tr id="filaNuevoIngreso">' + '</tr>')
                     $('#registrosLogros').append('<a href="#" onclick="ingresaFilaNueva.init()">'+'Nuevo'+'</a>')
                 }else {
-                    window.alert("Esta vacio")
+                    $('#registrosLogros').append('<tr id="filaNuevoIngreso">' + '</tr>')
+                    ingresaFilaNueva.init();
                 }
             },
             complete: function () {

@@ -4,6 +4,8 @@ if (isset($_GET['id'])){
     $id = $_GET['id'];
 
 }
+include "php/conectar.php";
+include "php/obtener.php";
 include "bl/consultaDireccion.php";
 ?>
    <script src="js/editarDireccion.js" type="application/javascript"></script>
@@ -14,27 +16,27 @@ include "bl/consultaDireccion.php";
             <div class="campos">
                 <div class="campoLinea">
                     <label for="pais" class="lblPais">Pais</label>
-                    <input type="text" id="pais" name="pais" value="<?php echo $datos['Pais'] ?>" class="inputPais">
+                    <input type="text" id="pais" name="pais" value="<?php echo $datos1['Pais'] ?>" class="inputPais">
                     <div class="clear"></div>
                 </div>
                 <div class="campoLinea">
                     <label for="provincia" class="lblProvincia"> Provincia </label>
-                    <input type="text" name="provincia" value="<?php echo $datos['Provincia'] ?>" class="inputProvincia">
+                    <input type="text" name="provincia" value="<?php echo $datos1['Provincia'] ?>" class="inputProvincia">
                     <div class="clear"></div>
                 </div>
                 <div class="campoLinea">
                     <label for="canton" class="lblCanton">Canton</label>
-                    <input type="text" name="canton" value="<?php echo $datos['Canton'] ?>" class="inputCanton">
+                    <input type="text" name="canton" value="<?php echo $datos1['Canton'] ?>" class="inputCanton">
                     <div class="clear"></div>
                 </div>
                 <div class="campoLinea">
                     <label for="distrito" class="lblDistrito">Distrito</label>
-                    <input type="text" name="distrito" value="<?php echo $datos['Distrito'] ?>" class="inputDistrito">
+                    <input type="text" name="distrito" value="<?php echo $datos1['Distrito'] ?>" class="inputDistrito">
                     <div class="clear"></div>
                 </div>
                 <div class="campoLinea">
                     <label for="direccionExacta" class="lblDireccionExacta">Direccion Exacta</label>
-                    <input type="text" name="direccionExacta" value="<?php echo $datos['DireccionExacta'] ?>" class="inputDireccionExacta">
+                    <input type="text" name="direccionExacta" value="<?php echo $datos1['DireccionExacta'] ?>" class="inputDireccionExacta">
                     <div class="clear"></div>
                 </div>
 
